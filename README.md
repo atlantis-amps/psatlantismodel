@@ -6,3 +6,6 @@ This repository contains parameter files for the Atlantis Model for Puget Sound.
 
 H. Morzaria-Luna, I.C. Kaplan, C.J. Harvey, R. Girardin, E.A. Fulton, P. MacCready, B. Chasco, P. Horne, M. Schmidt. In press. Design and Parameterization of a Spatially Explicit Atlantis Ecosystem Model for Puget Sound. NOAA Technical Memorandum NMFS-NWFSC-177. Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration.
 https://repository.library.noaa.gov/view/noaa/40463
+
+#Branch Salmon Migration
+Calibrated for Atlantis code Version 6533M, SVN branch on migration Oct 05, 2020
