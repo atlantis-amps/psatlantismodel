@@ -1,0 +1,36 @@
+mkdir: cannot create directory ‘outputFolder/’: File exists
+WARNING: flagecon_on in PugetSound_run.xml set to zero - assume economics model disabled
+WARNING: Only txt based age out will be output. Set this to 2 for netcdf output
+WARNING: Parse_Into_Array: Filling 25 values to end of array ScaleGroupDensities/init_scalar with last value, 1.000000e+00.
+Read in 1139 tracers
+Read in 15 epibenthic variables
+WARNING: WARNING: Based on your functional group definition file you have turned off horizontal movement for group BB, but you have set the number of entries different movement periods to greater than 0. 
+. No seasonal movement will occur for this group.
+WARNING: WARNING: Based on your functional group definition file you have turned off horizontal movement for group PB, but you have set the number of entries different movement periods to greater than 0. 
+. No seasonal movement will occur for this group.
+WARNING: WARNING: Based on your functional group definition file you have turned off horizontal movement for group MA, but you have set the number of entries different movement periods to greater than 0. 
+. No seasonal movement will occur for this group.
+WARNING: WARNING: Based on your functional group definition file you have turned off horizontal movement for group SG, but you have set the number of entries different movement periods to greater than 0. 
+. No seasonal movement will occur for this group.
+WARNING: WARNING: Based on your functional group definition file you have turned off horizontal movement for group BFF, but you have set the number of entries different movement periods to greater than 0. 
+. No seasonal movement will occur for this group.
+WARNING: WARNING: Based on your functional group definition file you have turned off horizontal movement for group BIV, but you have set the number of entries different movement periods to greater than 0. 
+. No seasonal movement will occur for this group.
+WARNING: WARNING: Based on your functional group definition file you have turned off horizontal movement for group GEC, but you have set the number of entries different movement periods to greater than 0. 
+. No seasonal movement will occur for this group.
+WARNING: WARNING: Based on your functional group definition file you have turned off horizontal movement for group BC, but you have set the number of entries different movement periods to greater than 0. 
+. No seasonal movement will occur for this group.
+WARNING: WARNING: Based on your functional group definition file you have turned off horizontal movement for group DL, but you have set the number of entries different movement periods to greater than 0. 
+. No seasonal movement will occur for this group.
+WARNING: WARNING: Based on your functional group definition file you have turned off horizontal movement for group DR, but you have set the number of entries different movement periods to greater than 0. 
+. No seasonal movement will occur for this group.
+WARNING: WARNING: Based on your functional group definition file you have turned off horizontal movement for group DC, but you have set the number of entries different movement periods to greater than 0. 
+. No seasonal movement will occur for this group.
+WARNING: hydro_init: Starting from beginning of hydro inputs
+This will probably be incorrect for a 'hot' start of the model
+
+
+
+dfRead: Can't open ..\ts_files\box1nut.ts
+
+

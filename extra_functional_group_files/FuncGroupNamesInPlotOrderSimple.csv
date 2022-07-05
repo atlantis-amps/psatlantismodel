@@ -1,0 +1,10 @@
+Code,Index,IsTurnedOn,Name,Long Name,NumCohorts,NumGeneTypes,NumStages,NumSpawns,NumAgeClassSize,NumStocks,VerticallyMigrates,HorizontallyMigrates,IsFished,IsImpacted,isTAC,GroupType,IsPredator,IsCover,IsSiliconDep,IsAssessed,IsCatchGrazer,OverWinters,isCultured,isHabDepend,numMoveEntries,isSupplemented,isBioEroder,isExternal,VirgBToCurrentB,IsVertebrate
+BB,1,1,Sed_Bact,Benthic bacteria,1,1,1,1,1,1,0,0,0,1,0,SED_BACT,0,0,0,0,0,0,0,0,1,0,0,0,2,0
+PL,3,1,Lrg_Phyto,Large phytoplankton,1,1,1,1,1,1,1,1,0,1,0,LG_PHY,0,0,1,0,0,0,0,0,1,0,0,0,2,0
+CHY,27,1,ChinookY_Fish,Chinook Hatch Yearling,5,1,2,1,5,1,1,1,1,1,0,FISH,1,0,0,0,0,0,0,0,12,2,0,1,2,1
+FDF,55,1,SmFlat_Fish,Small-mouthed Flatfish,10,1,2,1,10,1,1,1,1,1,0,FISH,1,0,0,0,0,0,0,1,1,0,0,0,2,1
+HAP,56,1,PiscFlat_Fish,Piscivorous flatfish,10,1,2,1,10,1,1,1,1,1,0,FISH,1,0,0,0,0,0,0,1,1,0,0,0,2,1
+DOG,57,1,Spinydog_Fish,Spiny dogfish,10,1,2,1,10,1,1,1,1,1,0,SHARK,1,0,0,0,0,0,0,0,2,0,0,0,2,1
+DL,72,1,Lab_Det,Labile detritus,1,1,1,1,1,1,0,0,0,1,0,LAB_DET,0,0,0,0,0,0,0,0,1,0,0,0,2,0
+DR,73,1,Ref_Det,Refractory detritus,1,1,1,1,1,1,0,0,0,1,0,REF_DET,0,0,0,0,0,0,0,0,1,0,0,0,2,0
+DC,71,1,Carrion,Carrion,1,1,1,1,1,1,0,0,0,1,0,CARRION,0,0,0,0,0,0,0,0,1,0,0,0,2,0
