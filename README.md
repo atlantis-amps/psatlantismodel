@@ -5,7 +5,7 @@ Calibrated for Atlantis code Version 6665, 14 Nov 2022
 
 This repository contains parameter files for the Atlantis Model for Puget Sound. The Atlantis Ecosystem Model considers all parts of marine ecosystems – biophysical, economic and social. Atlantis was developed by Dr. Beth Fulton at the Commonwealth Scientific and Industrial Research Organisation (CSIRO). To access Atlantis https://research.csiro.au/atlantis/home/links/
 
-[Description of changes for this branch](https://github.com/hmorzaria/psatlantismodelupdates)
+[Description of changes for this branch](https://hmorzaria.github.io/psatlantismodelupdates/)
 
 ## Technical memorandum describing the Atlantis tech memo for Puget Sound 
 
