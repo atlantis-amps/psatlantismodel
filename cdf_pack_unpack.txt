@@ -1,0 +1,5 @@
+ncdump AMPS.nc > AMPS.cdf
+
+pack
+ncgen -o AMPS.nc AMPS.cdf
+

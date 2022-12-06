@@ -1,0 +1,734 @@
+# PC Version (created by Beth Fulton and Adam Davidson)
+#
+# Isaac Kaplan November 15 2018: Hydrodynamic files - this is for Puget Sound Atlantis , using 
+# forcing files provided by Parker MacCready (UW)  for 2005 and 2006, and solar radiation data for Seatac airport 
+
+nhdfiles 1
+hd0.name PugetSoundROMS2005_2006flows.nc  
+
+
+# Bottom stress
+# BottomStress inputs/stress/stress.nc
+# BottomStress inputs/stress/nxstress.nc
+
+#############################################
+# Point source\sink lists
+npointss 43
+
+##########################################
+# Rain and evaporation
+Precipitation times1.6.nc
+Evaporation   84-95.nc
+
+# Solar time series data file
+Solar_radiation solarSeatacAirport.ts
+Solar_radiation_rewind 1
+
+# Temperature time series data file
+use_tempfiles 1
+# The number of temperature input files 
+ntempfiles 1 
+Temperature0.name pugetsound_roms_temp.nc
+temp_rewind 1
+
+
+# Salinity time series data file
+use_saltfiles 1
+# The number of salinity files 
+nsaltfiles 1
+Salinity0.name pugetsound_roms_salt.nc
+salt_rewind 1
+
+ts_on_hydro_time 0
+
+# Recruitment_time_series
+Recruitment_time_series HatcheryBASE2011v4.ts
+
+# Recruitment_enviro_forcing
+# This looks like a test from Raphael: Recruitment_enviro_forcing CalCurrent89_chinookrecruit.ts
+#Recruitment_enviro_forcing_rewind 1
+
+# KWSR_forcing
+#  
+# This looks like a test Raphael was doing: KWSR_forcing CalCurrent89_KWSRchinook.ts
+#KWSR_forcing_rewind 1
+
+# pH files
+use_phFiles 0
+npHfiles 0
+#pH0.name ..\force2010sFixBox25\CalCurrent89_phA.nc
+#pH0.name ..\force2013\pH2013\CalCurrent89_pH2013_729steps1.nc
+#pH_rewind 1
+
+##################################
+
+# Point source\sink lists
+
+## nutrient forcing             
+pss0.name MohamedaliNutrientInputs19992014
+pss0.location   498422.787601107 5409872.625805678   -2
+pss0.data box1nut.ts
+pss0.rewind 0
+
+## nutrient forcing             
+pss1.name MohamedaliNutrientInputs19992014
+pss1.location   510015.0825845437 5425110.048968723  -2
+pss1.data box2nut.ts
+pss1.rewind 0
+
+## nutrient forcing             
+pss2.name MohamedaliNutrientInputs19992014
+pss2.location  518554.70095919305 5419293.274485223   -2
+pss2.data box3nut.ts
+pss2.rewind 0
+
+## nutrient forcing             
+pss3.name MohamedaliNutrientInputs19992014
+pss3.location  477322.785753601 5387964.190565741   -2
+pss3.data box4nut.ts
+pss3.rewind 0
+
+## nutrient forcing             
+pss4.name MohamedaliNutrientInputs19992014
+pss4.location   486322.7862311204 5383647.780960073   -2
+pss4.data box5nut.ts
+pss4.rewind 0
+
+## nutrient forcing             
+pss5.name MohamedaliNutrientInputs19992014
+pss5.location   499797.78715145926 5393865.442603862   -2
+pss5.data box7nut.ts
+pss5.rewind 0
+
+## nutrient forcing             
+pss6.name MohamedaliNutrientInputs19992014
+pss6.location   530597.7886163209 5387819.655345395   -2
+pss6.data box9nut.ts
+pss6.rewind 0
+
+## nutrient forcing             
+pss7.name MohamedaliNutrientInputs19992014
+pss7.location   537598.4844544259 5381691.969723043   -2
+pss7.data box10nut.ts
+pss7.rewind 0
+
+## nutrient forcing             
+pss8.name MohamedaliNutrientInputs19992014
+pss8.location   506547.7871071224 5379219.058945183   -2
+pss8.data box13nut.ts
+pss8.rewind 0
+
+## nutrient forcing             
+pss9.name MohamedaliNutrientInputs19992014
+pss9.location   499293.5691852022 5380904.71162259   -2
+pss9.data box14nut.ts
+pss9.rewind 0
+
+## nutrient forcing             
+pss10.name MohamedaliNutrientInputs19992014
+pss10.location   500210.98835760687 5370938.291241666   -2
+pss10.data box15nut.ts
+pss10.rewind 0
+
+## nutrient forcing             
+pss11.name MohamedaliNutrientInputs19992014
+pss11.location   507547.7864958401 5346297.532812151   -2
+pss11.data box20nut.ts
+pss11.rewind 0
+
+## nutrient forcing             
+pss12.name MohamedaliNutrientInputs19992014
+pss12.location   520797.7869584351 5345055.56486903   -2
+pss12.data box21nut.ts
+pss12.rewind 0
+
+## nutrient forcing             
+pss13.name MohamedaliNutrientInputs19992014
+pss13.location   526910.7632064178 5344378.297096277   -2
+pss13.data box22nut.ts
+pss13.rewind 0
+
+## nutrient forcing             
+pss14.name MohamedaliNutrientInputs19992014
+pss14.location   539478.0644952244 5351104.529696421   -2
+pss14.data box24nut.ts
+pss14.rewind 0
+
+## nutrient forcing             
+pss15.name MohamedaliNutrientInputs19992014
+pss15.location   543450.3938836296 5339167.933124436   -2
+pss15.data box25nut.ts
+pss15.rewind 0
+
+## nutrient forcing             
+pss16.name MohamedaliNutrientInputs19992014
+pss16.location   546347.7876422709 5329730.242077948   -2
+pss16.data box26nut.ts
+pss16.rewind 0
+
+## nutrient forcing             
+pss17.name MohamedaliNutrientInputs19992014
+pss17.location   556713.180884988 5316660.683556804   -2
+pss17.data box27nut.ts
+pss17.rewind 0
+
+## nutrient forcing             
+pss18.name MohamedaliNutrientInputs19992014
+pss18.location   547272.7874458274 5320287.7791288635   -2
+pss18.data box28nut.ts
+pss18.rewind 0
+
+## nutrient forcing             
+pss19.name MohamedaliNutrientInputs19992014
+pss19.location   524340.9933090534 5326560.010947069   -2
+pss19.data box29nut.ts
+pss19.rewind 0
+
+## nutrient forcing             
+pss20.name MohamedaliNutrientInputs19992014
+pss20.location   518975.1847836193 5324402.112078067   -2
+pss20.data box30nut.ts
+pss20.rewind 0
+
+
+## nutrient forcing             
+pss21.name MohamedaliNutrientInputs19992014
+pss21.location   534520.5829000687 5306997.0755188195   -2
+pss21.data box31nut.ts
+pss21.rewind 0
+
+## nutrient forcing             
+pss22.name MohamedaliNutrientInputs19992014
+pss22.location   546272.7865383382 5286901.175598973   -2
+pss22.data box34nut.ts
+pss22.rewind 0
+
+## nutrient forcing             
+pss23.name MohamedaliNutrientInputs19992014
+pss23.location   527834.8097011676 5304047.259268746   -2
+pss23.data box35nut.ts
+pss23.rewind 0
+
+## nutrient forcing             
+pss24.name MohamedaliNutrientInputs19992014
+pss24.location   518688.15665868385 5286343.235442876   -2
+pss24.data box36nut.ts
+pss24.rewind 0
+
+## nutrient forcing             
+pss25.name MohamedaliNutrientInputs19992014
+pss25.location   511835.03439907235 5287123.562659145   -2
+pss25.data box37nut.ts
+pss25.rewind 0
+
+## nutrient forcing             
+pss26.name MohamedaliNutrientInputs19992014
+pss26.location   503222.7837354478 5272964.0714205755   -2
+pss26.data box38nut.ts
+pss26.rewind 0
+
+## nutrient forcing             
+pss27.name MohamedaliNutrientInputs19992014
+pss27.location   500623.7656288497 5247240.628300186   -2
+pss27.data box40nut.ts
+pss27.rewind 0
+
+## nutrient forcing             
+pss28.name MohamedaliNutrientInputs19992014
+pss28.location   527458.0634401428 5284784.511569971   -2
+pss28.data box41nut.ts
+pss28.rewind 0
+
+## nutrient forcing             
+pss29.name MohamedaliNutrientInputs19992014
+pss29.location   536730.8118443068 5265935.968462716   -2
+pss29.data box42nut.ts
+pss29.rewind 0
+
+## nutrient forcing             
+pss30.name MohamedaliNutrientInputs19992014
+pss30.location   540332.1763239122 5277917.549651294   -2
+pss30.data box43nut.ts
+pss30.rewind 0
+
+## nutrient forcing             
+pss31.name MohamedaliNutrientInputs19992014
+pss31.location   548067.7460759396 5272234.516169005   -2
+pss31.data box45nut.ts
+pss31.rewind 0
+
+## nutrient forcing             
+pss32.name MohamedaliNutrientInputs19992014
+pss32.location   535110.7609019842 5246815.8871015515  -2
+pss32.data box48nut.ts
+pss32.rewind 0
+
+## nutrient forcing             
+pss33.name MohamedaliNutrientInputs19992014
+pss33.location   544002.80850424 5250142.00569211  -2
+pss33.data box49nut.ts
+pss33.rewind 0
+
+## nutrient forcing             
+pss34.name MohamedaliNutrientInputs19992014
+pss34.location   542939.4719515634 5251141.889380205   -2
+pss34.data box50nut.ts
+pss34.rewind 0
+
+## nutrient forcing             
+pss35.name MohamedaliNutrientInputs19992014
+pss35.location   546857.2516340401 5248808.771384386   -2
+pss35.data box51nut.ts
+pss35.rewind 0
+
+## nutrient forcing             
+pss36.name MohamedaliNutrientInputs19992014
+pss36.location   540634.5829582299 5247773.513467651   -2
+pss36.data box52nut.ts
+pss36.rewind 0
+
+## nutrient forcing             
+pss37.name MohamedaliNutrientInputs19992014
+pss37.location   542594.0676518148 5236357.281515977   -2
+pss37.data box53nut.ts
+pss37.rewind 0
+
+## nutrient forcing             
+pss38.name MohamedaliNutrientInputs19992014
+pss38.location   524997.7834921618 5221870.867962455   -2
+pss38.data box55nut.ts
+pss38.rewind 0
+
+## nutrient forcing             
+pss39.name MohamedaliNutrientInputs19992014
+pss39.location   522893.27943094436 5237340.955582694   -2
+pss39.data box56nut.ts
+pss39.rewind 0
+
+## nutrient forcing             
+pss40.name MohamedaliNutrientInputs19992014
+pss40.location   515822.7829734514 5223828.647814645   -2
+pss40.data box57nut.ts
+pss40.rewind 0
+
+## nutrient forcing             
+pss41.name MohamedaliNutrientInputs19992014
+pss41.location   504031.50099447405 5218144.449980786   -2
+pss41.data box58nut.ts
+pss41.rewind 0
+
+## nutrient forcing             
+pss42.name MohamedaliNutrientInputs19992014
+pss42.location   501095.09999746835 5221947.872973682   -2
+pss42.data box59nut.ts
+pss42.rewind 0
+
+
+#############################################
+# Historical catch lists - nCatchts is the number of time series to be loaded and
+# typeCatchts is whether or not the data is to be interpolated (0) by the model
+# or just use previous record (1)
+nCatchts 89
+typeCatchts 1
+
+Catchts0.name box0catch
+Catchts0.location 472570.654823903 5404695.47753578
+Catchts0.data box0catch.ts
+Catchts0.rewind 0
+Catchts1.name box1catch
+Catchts1.location 498693.31312271 5409610.46741116
+Catchts1.data box1catch.ts
+Catchts1.rewind 0
+Catchts2.name box2catch
+Catchts2.location 511010.317826018 5417153.08150143
+Catchts2.data box2catch.ts
+Catchts2.rewind 0
+Catchts3.name box3catch
+Catchts3.location 517693.719912542 5413229.29131869
+Catchts3.data box3catch.ts
+Catchts3.rewind 0
+Catchts4.name box4catch
+Catchts4.location 475283.984932114 5389371.20282178
+Catchts4.data box4catch.ts
+Catchts4.rewind 0
+Catchts5.name box5catch
+Catchts5.location 483356.282274884 5383991.06742456
+Catchts5.data box5catch.ts
+Catchts5.rewind 0
+Catchts6.name box6catch
+Catchts6.location 491465.758745805 5392237.04879566
+Catchts6.data box6catch.ts
+Catchts6.rewind 0
+Catchts7.name box7catch
+Catchts7.location 500469.499511815 5392414.71255837
+Catchts7.data box7catch.ts
+Catchts7.rewind 0
+Catchts8.name box8catch
+Catchts8.location 522603.138513949 5389270.24151769
+Catchts8.data box8catch.ts
+Catchts8.rewind 0
+Catchts9.name box9catch
+Catchts9.location 532266.679343207 5385134.35699656
+Catchts9.data box9catch.ts
+Catchts9.rewind 0
+Catchts10.name box10catch
+Catchts10.location 539828.678214494 5382960.35920403
+Catchts10.data box10catch.ts
+Catchts10.rewind 0
+Catchts11.name box11catch
+Catchts11.location 536583.560985969 5373857.1301122
+Catchts11.data box11catch.ts
+Catchts11.rewind 0
+Catchts12.name box12catch
+Catchts12.location 519201.731593186 5370073.64954957
+Catchts12.data box12catch.ts
+Catchts12.rewind 0
+Catchts13.name box13catch
+Catchts13.location 511204.004795699 5384000.02383696
+Catchts13.data box13catch.ts
+Catchts13.rewind 0
+Catchts14.name box14catch
+Catchts14.location 502415.579052593 5376687.48699933
+Catchts14.data box14catch.ts
+Catchts14.rewind 0
+Catchts15.name box15catch
+Catchts15.location 500451.017799367 5369827.39762365
+Catchts15.data box15catch.ts
+Catchts15.rewind 0
+Catchts16.name box16catch
+Catchts16.location 501910.471478879 5365631.53247169
+Catchts16.data box16catch.ts
+Catchts16.rewind 0
+Catchts17.name box17catch
+Catchts17.location 485081.912953923 5340738.28833668
+Catchts17.data box17catch.ts
+Catchts17.rewind 0
+Catchts18.name box18catch
+Catchts18.location 491787.73196886 5359151.97012416
+Catchts18.data box18catch.ts
+Catchts18.rewind 0
+Catchts19.name box19catch
+Catchts19.location 502181.208651533 5351651.00518991
+Catchts19.data box19catch.ts
+Catchts19.rewind 0
+Catchts20.name box20catch
+Catchts20.location 511961.605470082 5347122.5225131
+Catchts20.data box20catch.ts
+Catchts20.rewind 0
+Catchts21.name box21catch
+Catchts21.location 518046.873757351 5345146.09401133
+Catchts21.data box21catch.ts
+Catchts21.rewind 0
+Catchts22.name box22catch
+Catchts22.location 528780.517534779 5344804.31520046
+Catchts22.data box22catch.ts
+Catchts22.rewind 0
+Catchts23.name box23catch
+Catchts23.location 532666.398413405 5342053.16432992
+Catchts23.data box23catch.ts
+Catchts23.rewind 0
+Catchts24.name box24catch
+Catchts24.location 540124.274700683 5353112.29851693
+Catchts24.data box24catch.ts
+Catchts24.rewind 0
+Catchts25.name box25catch
+Catchts25.location 543946.389914276 5338691.59177695
+Catchts25.data box25catch.ts
+Catchts25.rewind 0
+Catchts26.name box26catch
+Catchts26.location 548707.252159682 5325098.62203953
+Catchts26.data box26catch.ts
+Catchts26.rewind 0
+Catchts27.name box27catch
+Catchts27.location 556593.453146994 5315425.01905719
+Catchts27.data box27catch.ts
+Catchts27.rewind 0
+Catchts28.name box28catch
+Catchts28.location 548628.725935688 5318025.01926509
+Catchts28.data box28catch.ts
+Catchts28.rewind 0
+Catchts29.name box29catch
+Catchts29.location 526563.815703618 5323327.52873654
+Catchts29.data box29catch.ts
+Catchts29.rewind 0
+Catchts30.name box30catch
+Catchts30.location 517873.738507778 5323442.31783448
+Catchts30.data box30catch.ts
+Catchts30.rewind 0
+Catchts31.name box31catch
+Catchts31.location 536424.827782255 5302036.63395737
+Catchts31.data box31catch.ts
+Catchts31.rewind 0
+Catchts32.name box32catch
+Catchts32.location 546953.266911674 5304371.66194193
+Catchts32.data box32catch.ts
+Catchts32.rewind 0
+Catchts33.name box33catch
+Catchts33.location 541481.876406539 5309479.15118731
+Catchts33.data box33catch.ts
+Catchts33.rewind 0
+Catchts34.name box34catch
+Catchts34.location 545974.395214502 5289876.04951077
+Catchts34.data box34catch.ts
+Catchts34.rewind 0
+Catchts35.name box35catch
+Catchts35.location 529389.788926458 5302387.48265016
+Catchts35.data box35catch.ts
+Catchts35.rewind 0
+Catchts36.name box36catch
+Catchts36.location 518071.03878007 5286263.52574671
+Catchts36.data box36catch.ts
+Catchts36.rewind 0
+Catchts37.name box37catch
+Catchts37.location 512715.124875805 5290025.49516891
+Catchts37.data box37catch.ts
+Catchts37.rewind 0
+Catchts38.name box38catch
+Catchts38.location 499700.092293119 5268111.20601961
+Catchts38.data box38catch.ts
+Catchts38.rewind 0
+Catchts39.name box39catch
+Catchts39.location 491032.612695243 5251715.3862926
+Catchts39.data box39catch.ts
+Catchts39.rewind 0
+Catchts40.name box40catch
+Catchts40.location 503960.648978377 5248639.18342785
+Catchts40.data box40catch.ts
+Catchts40.rewind 0
+Catchts41.name box41catch
+Catchts41.location 530271.79879755 5276728.61289005
+Catchts41.data box41catch.ts
+Catchts41.rewind 0
+Catchts42.name box42catch
+Catchts42.location 537180.458821493 5277874.4012462
+Catchts42.data box42catch.ts
+Catchts42.rewind 0
+Catchts43.name box43catch
+Catchts43.location 540126.633783875 5277791.16147293
+Catchts43.data box43catch.ts
+Catchts43.rewind 0
+Catchts44.name box44catch
+Catchts44.location 543030.362694457 5277791.72283471
+Catchts44.data box44catch.ts
+Catchts44.rewind 0
+Catchts45.name box45catch
+Catchts45.location 547355.251612406 5273468.82459725
+Catchts45.data box45catch.ts
+Catchts45.rewind 0
+Catchts46.name box46catch
+Catchts46.location 544760.558705567 5265237.51677042
+Catchts46.data box46catch.ts
+Catchts46.rewind 0
+Catchts47.name box47catch
+Catchts47.location 540135.625020661 5264805.31476885
+Catchts47.data box47catch.ts
+Catchts47.rewind 0
+Catchts48.name box48catch
+Catchts48.location 535077.468009815 5251056.46167199
+Catchts48.data box48catch.ts
+Catchts48.rewind 0
+Catchts49.name box49catch
+Catchts49.location 542607.090863621 5254159.26920105
+Catchts49.data box49catch.ts
+Catchts49.rewind 0
+Catchts50.name box50catch
+Catchts50.location 548259.883719033 5249163.10785389
+Catchts50.data box50catch.ts
+Catchts50.rewind 0
+Catchts51.name box51catch
+Catchts51.location 550700.20729221 5247008.31033784
+Catchts51.data box51catch.ts
+Catchts51.rewind 0
+Catchts52.name box52catch
+Catchts52.location 539815.437359705 5246110.53842656
+Catchts52.data box52catch.ts
+Catchts52.rewind 0
+Catchts53.name box53catch
+Catchts53.location 542654.673344376 5236545.75507155
+Catchts53.data box53catch.ts
+Catchts53.rewind 0
+Catchts54.name box54catch
+Catchts54.location 533833.589850916 5235237.03947085
+Catchts54.data box54catch.ts
+Catchts54.rewind 0
+Catchts55.name box55catch
+Catchts55.location 527264.747512314 5225430.45956436
+Catchts55.data box55catch.ts
+Catchts55.rewind 0
+Catchts56.name box56catch
+Catchts56.location 521852.311084963 5239443.23499072
+Catchts56.data box56catch.ts
+Catchts56.rewind 0
+Catchts57.name box57catch
+Catchts57.location 511815.776126749 5234346.89120423
+Catchts57.data box57catch.ts
+Catchts57.rewind 0
+Catchts58.name box58catch
+Catchts58.location 506594.966861932 5219451.5535793
+Catchts58.data box58catch.ts
+Catchts58.rewind 0
+Catchts59.name box59catch
+Catchts59.location 505152.401242082 5227013.08979518
+Catchts59.data box59catch.ts
+Catchts59.rewind 0
+Catchts60.name box60catch
+Catchts60.location 467432.754656475 5419777.03472109
+Catchts60.data box60catch.ts
+Catchts60.rewind 0
+Catchts61.name box61catch
+Catchts61.location 464074.070868142 5407130.82770542
+Catchts61.data box61catch.ts
+Catchts61.rewind 0
+Catchts62.name box62catch
+Catchts62.location 479181.707685884 5409610.46741116
+Catchts62.data box62catch.ts
+Catchts62.rewind 0
+Catchts63.name box63catch
+Catchts63.location 478498.105949063 5402746.94327319
+Catchts63.data box63catch.ts
+Catchts63.rewind 0
+Catchts64.name box64catch
+Catchts64.location 486590.709319595 5391298.07777092
+Catchts64.data box64catch.ts
+Catchts64.rewind 0
+Catchts65.name box65catch
+Catchts65.location 489841.189238698 5387625.02447272
+Catchts65.data box65catch.ts
+Catchts65.rewind 0
+Catchts66.name box66catch
+Catchts66.location 497505.008898371 5393728.05345987
+Catchts66.data box66catch.ts
+Catchts66.rewind 0
+Catchts67.name box67catch
+Catchts67.location 506990.811707496 5400018.94705143
+Catchts67.data box67catch.ts
+Catchts67.rewind 0
+Catchts68.name box68catch
+Catchts68.location 525286.156177053 5393137.86249339
+Catchts68.data box68catch.ts
+Catchts68.rewind 0
+Catchts69.name box69catch
+Catchts69.location 513686.9001133 5389468.65042144
+Catchts69.data box69catch.ts
+Catchts69.rewind 0
+Catchts70.name box70catch
+Catchts70.location 493575.780940522 5375489.91335754
+Catchts70.data box70catch.ts
+Catchts70.rewind 0
+Catchts71.name box71catch
+Catchts71.location 486338.572722217 5383789.41650336
+Catchts71.data box71catch.ts
+Catchts71.rewind 0
+Catchts72.name box72catch
+Catchts72.location 503166.630518316 5379752.89542075
+Catchts72.data box72catch.ts
+Catchts72.rewind 0
+Catchts73.name box73catch
+Catchts73.location 507427.916480372 5370893.09871418
+Catchts73.data box73catch.ts
+Catchts73.rewind 0
+Catchts74.name box74catch
+Catchts74.location 513756.68624335 5382376.84848621
+Catchts74.data box74catch.ts
+Catchts74.rewind 0
+Catchts75.name box75catch
+Catchts75.location 514644.3895629 5378799.61749979
+Catchts75.data box75catch.ts
+Catchts75.rewind 0
+Catchts76.name box76catch
+Catchts76.location 513595.518540865 5372369.78019668
+Catchts76.data box76catch.ts
+Catchts76.rewind 0
+Catchts77.name box77catch
+Catchts77.location 521441.374237193 5382065.97185118
+Catchts77.data box77catch.ts
+Catchts77.rewind 0
+Catchts78.name box78catch
+Catchts78.location 527114.941738744 5379325.02305971
+Catchts78.data box78catch.ts
+Catchts78.rewind 0
+Catchts79.name box79catch
+Catchts79.location 527216.892238778 5335123.4218578
+Catchts79.data box79catch.ts
+Catchts79.rewind 0
+Catchts80.name box80catch
+Catchts80.location 550439.606332131 5318425.01933402
+Catchts80.data box80catch.ts
+Catchts80.rewind 0
+Catchts81.name box81catch
+Catchts81.location 534206.278668922 5276678.1120801
+Catchts81.data box81catch.ts
+Catchts81.rewind 0
+Catchts82.name box82catch
+Catchts82.location 538388.402696698 5264805.31476885
+Catchts82.data box82catch.ts
+Catchts82.rewind 0
+Catchts83.name box83catch
+Catchts83.location 539480.983753775 5251482.20000644
+Catchts83.data box83catch.ts
+Catchts83.rewind 0
+Catchts84.name box84catch
+Catchts84.location 527583.275789936 5233490.92139821
+Catchts84.data box84catch.ts
+Catchts84.rewind 0
+Catchts85.name box85catch
+Catchts85.location 523769.376073427 5229650.0155697
+Catchts85.data box85catch.ts
+Catchts85.rewind 0
+Catchts86.name box86catch
+Catchts86.location 522520.589776339 5223258.24278777
+Catchts86.data box86catch.ts
+Catchts86.rewind 0
+Catchts87.name box87catch
+Catchts87.location 508131.556850222 5231459.31786229
+Catchts87.data box87catch.ts
+Catchts87.rewind 0
+Catchts88.name box88catch
+Catchts88.location 506451.635715228 5227097.25717704
+Catchts88.data box88catch.ts
+Catchts88.rewind 0
+
+#############################################
+# Historical discard lists
+nDiscardts 0
+typeDiscardts 0
+
+#############################################
+# Residual lists - on market fish prices
+nResidualsts 0
+typeResidualsts 0
+
+#############################################
+# Economic statistics - GDP and fuel costs
+nEconts 0
+typeEconts 0
+
+##############################################
+# MPA (spatial management) files for cases where change through time
+# Same format as Catchts above
+nMPAts 0
+typeMPAts 0
+
+use_force_tracers 0
+
+use_VertMixFiles 0
+
+use_pollutantfiles 0
+
+
+# The number of tracers to search for in the files and the names of those tracers. 
+nforceTracers 0
+tracerNames 0
+
+# Now the actual files. Can have more than one tracer in a file.
+
+#Arsenic_nFiles 1
+#Arsenic_File0.name inputs/forcisets/SETAS_VMPAArsenic.nc
+#Arsenic_rewind 0
+
+# Frequency of inputs.ts and exports.ts output.
+inputs_tout 1 day
+
+##############################################
+# Movement forcing
+use_move_enties 0

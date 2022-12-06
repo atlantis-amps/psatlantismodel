@@ -1,0 +1,5 @@
+Code,Index,IsTurnedOn,Name,Long Name,NumCohorts,NumGeneTypes,NumStages,NumSpawns,NumAgeClassSize,NumStocks,VerticallyMigrates,HorizontallyMigrates,IsFished,IsImpacted,isTAC,GroupType,IsPredator,IsCover,IsSiliconDep,IsAssessed,IsCatchGrazer,OverWinters,isCultured,isHabDepend,numMoveEntries,isSupplemented,isBioEroder,isExternal,VirgBToCurrentB,IsVertebrate
+NH3,72,1,NH3,Ammonia,1,1,1,1,1,1,0,0,0,1,0,NH3,0,0,0,0,0,0,0,0,1,0,0,0,2,0
+NO3,72,1,NO3,Nitrate,1,1,1,1,1,1,0,0,0,1,0,NO3,0,0,0,0,0,0,0,0,1,0,0,0,2,0
+Si,72,1,Si,Dissolved Silica,1,1,1,1,1,1,0,0,0,1,0,Si,0,0,0,0,0,0,0,0,1,0,0,0,2,0
+
