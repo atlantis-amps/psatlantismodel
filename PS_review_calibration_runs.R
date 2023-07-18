@@ -1,7 +1,9 @@
-#' Code to manage and run Atlantis simulations
-#'  
+#' Code to extract output from Atlantis simulations
+#' Inputs: Out.nc and BiomIndx.txt
+#' Outputs: Plots of biomass, numbers, weight at age, RN and SN; 
+#' Outputs: csv files of biomass and numbers
 #' @author Hem Nalini Morzaria Luna
-#' @date February 2019
+#' @date Last edited February 2023
 #' 
 
 # set locale to avoid multibyte errors
@@ -13,7 +15,7 @@ Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
 # List of packages for session
 .packages = c("devtools","dtplyr","stringi","data.table","tidyverse","stringr","R.utils","magrittr",
               "future","parallel","doSNOW","ReactiveAtlantis","scales","RNetCDF","ggforce","pdftools",
-              "rgdal","gridExtra", "esquisse","sf")
+              "rgdal","gridExtra", "esquisse","sf", "here")
 
 
 # Install CRAN packages (if not already installed)
@@ -33,43 +35,46 @@ system("sudo chmod -R a+rw ~/")
 system("sudo chmod -R a+rw /usr/local/lib/R/site-library")
 
 
-this.folder <- "base_runs"
-model.var <- c(2:4,7,8)
+#this.folder <- "base_runs" # 
+model.var <- c(1) # different model versions that are used
 
-folder.paths <- here(this.folder,paste0("Atlantis_mv_",model.var,"/outputFolder"))
+#change the folder name here
+folder.paths <- here(c("Atlantis_mv_1_6681_5yr_fprintfsp_rectype4_out1dy"), "outputFolder")
 
+#specify output frequency and years run
 model.ver <- 1:length(folder.paths)
-
-yearsrun <- 30
+outputfrequency <- 1 #1 day output frequency
+yearsrun <- 5
 
 theseyears <- 1:yearsrun
 
-thistimestep <- (yearsrun*365)/73 #this is max number of timesteps/73 output frequency
+thistimestep <- (yearsrun*365)/outputfrequency #this is max number of timesteps/73 output frequency
 
 maxtimestep <- yearsrun*365
 
 
 
-add_file <- function(eachfolder, this.file){
-  
-  
-  file.copy(from=here(this.file), to = paste0(eachfolder,"/",this.file), overwrite = TRUE)
-  
- 
-}
-
-lapply(folder.paths, add_file, this.file = "PugetSoundAtlantisFunctionalGroupsOriginal.csv")
-lapply(folder.paths, add_file, this.file = "PugetSoundAtlantisFunctionalGroups.csv")
-lapply(folder.paths, add_file, this.file = "PugetSound_89b_070116.bgm")
+# add_file <- function(eachfolder, this.file){
+#   
+#   
+#   file.copy(from=here(this.file), to = paste0(eachfolder,"/",this.file), overwrite = TRUE)
+#   
+#  
+# }
+# 
+# lapply(folder.paths, add_file, this.file = "PugetSoundAtlantisFunctionalGroupsOriginal.csv")
+# lapply(folder.paths, add_file, this.file = "PugetSoundAtlantisFunctionalGroups.csv")
+# lapply(folder.paths, add_file, this.file = "PugetSound_89b_070116.bgm")
 
 
 # make detailed Biomass, biomass per plot, Rn Sn, and Nums plots
 
 fg.list <- read_csv(here('PugetSoundAtlantisFunctionalGroups.csv')) %>% 
-  dplyr::select(Code, IsTurnedOn, GroupType, NumCohorts, name, longname)
+  dplyr::select(Code, IsTurnedOn, GroupType, NumCohorts, name, longname) %>% 
+  filter(!Code %in% c("DIN","DL"))
 
-variabletypes <- c("BoxBiomass","Biomass","StructN","ResN","Nums","Wage")
 #variabletypes <- c("BoxBiomass","Biomass","StructN","ResN","Nums","Wage")
+variabletypes <- c("Biomass","StructN","ResN","Nums","Wage")
 
 #use for NPZ
 #variabletypes <- c("BoxBiomass","Biomass")
@@ -94,12 +99,12 @@ vert.groups <- fg.list %>%
 
 
                    
-shape.file <- readOGR(dsn=here(), layer="bgm_Puget_Sound_89b_0p0001_WGS84", stringsAsFactors = FALSE)
+#shape.file <- readOGR(dsn=here(), layer="bgm_Puget_Sound_89b_0p0001_WGS84", stringsAsFactors = FALSE)
  
-#shape.file <- st_read("~/ampsmodelvariants/bgm_Puget_Sound_89b_0p0001_WGS84.shp")
+#shape.file <- st_read("bgm_Puget_Sound_89b_0p0001_WGS84.shp")
 
-shape.file.df <- fortify(shape.file, region = "BOX_ID") %>% 
-   mutate(id=as.numeric(id))
+#shape.file.df <- fortify(shape.file, region = "BOX_ID") %>% 
+ #  mutate(id=as.numeric(id))
 
 #get values from NC file
 get.nc.data <- function(eachgroup,thisncfile){
@@ -202,7 +207,7 @@ get.nc.data <- function(eachgroup,thisncfile){
     bind_rows() %>% 
     mutate(code = this.sprow$Code, longname = this.sprow$longname) %>% 
     dplyr::rename(atlantis_group = group) %>% 
-    mutate(Year=(time*73)/365)
+    mutate(Year=(time*outputfrequency)/365)
   
   
   print(paste("Done with group",eachgroup))
@@ -212,18 +217,20 @@ get.nc.data <- function(eachgroup,thisncfile){
 }
 
 #make graph with output from NC file
-make_graph <- function(thisvariabletype){
+make_graph <- function(thisvariabletype, this.output.biomass, group.atlantis.data){
   
   print(thisvariabletype)
   
   if(thisvariabletype=="Biomass"){
     
     thisdataset <- this.output.biomass %>% 
+      filter(!Code %in% c("DIN","DL")) %>% 
       mutate(longname = as.factor(longname))
+    
     
     # Calculate the number of pages with 12 panels per page
     n_pages <- ceiling(
-      length(levels(as.factor(thisdataset$longname)))/ 12
+      length(levels(as.factor(thisdataset$longname)))/ 9
     )
     
     print(n_pages)
@@ -231,11 +238,11 @@ make_graph <- function(thisvariabletype){
       
       print(i)
       
-      pplot <-   ggplot(thisdataset, aes(x=Year,y=biomass, group = longname))+
+     pplot <-   ggplot(thisdataset, aes(x=Year,y=biomass, group = longname))+
         geom_line(colour="darkblue")+
         labs(y= thisvariabletype, x = "Year") +
-        scale_y_continuous(limits = c(0,NA))+
-        facet_wrap_paginate(~longname, ncol = 3, nrow = 4, page = i, shrink = FALSE, scales = "free")+
+       # scale_y_continuous(limits = c(0,NA))+
+        ggforce::facet_wrap_paginate(~longname, ncol = 3, nrow = 3, page = i, shrink = FALSE, scales = "free_y")+
         theme(legend.position="none")+
         theme_minimal()
         
@@ -246,56 +253,58 @@ make_graph <- function(thisvariabletype){
       #ggsave(thisplotname,plot = pplot, device = "png", width = 10, height = 6)
       ggsave(thisplotname, plot = pplot, path = eachfolder, width = 21, height = 29, units = "cm")
     }
-  } else if(thisvariabletype=="BoxBiomass"){
-
-    thisdataset <- this.output.box.biomass.df %>% 
-      mutate(longname = as.factor(longname))
-
-      species.list <- thisdataset %>% 
-        distinct(longname) %>% 
-        mutate(longname=as.character(longname)) %>% 
-        .$longname
-      
-      p <- list()
-      
-      for(eachspecies in 1:length(species.list)){
-        
-        print(species.list[eachspecies])
-        
-        sp.dataset <- thisdataset %>% 
-          filter(longname==species.list[eachspecies])
-        
-          p[[eachspecies]] <- ggplot(data = sp.dataset, aes(x = long, y = lat, group = group))+ 
-            geom_polygon(aes(fill = biomass), color = 'gray', size = 0.1) +
-            coord_fixed(1.3)+
-            theme_minimal()+
-            ggtitle(species.list[eachspecies])
-      }
-      
-      # Calculate the number of pages with 9 panels per page
-      n_pages <- ceiling(
-        length(levels(as.factor(thisdataset$longname)))/ 9
-      )
-      
-      print(n_pages)
-      
-      for (i in seq_len((n_pages-1))) {
-      print(i)  
-      thisplotname <- paste(thisvariabletype,i,"plot.pdf",sep="_")
-      print(thisplotname)
-      pdf(thisplotname, width = 12, height = 12)
-      
-      if(i == 1){do.call(grid.arrange,p[(i):(9*i)])} else {
-      
-        do.call(grid.arrange,p[((i*9)-8):(9*i)])
-      }
-      
-      dev.off()
-      
-      }
-  } else if (thisvariabletype=="StructN" | thisvariabletype=="ResN") {
+  
+  # } else if(thisvariabletype=="BoxBiomass"){
+  # 
+  #   thisdataset <- this.output.box.biomass.df %>% 
+  #     mutate(longname = as.factor(longname))
+  # 
+  #     species.list <- thisdataset %>% 
+  #       distinct(longname) %>% 
+  #       mutate(longname=as.character(longname)) %>% 
+  #       .$longname
+  #     
+  #     p <- list()
+  #     
+  #     for(eachspecies in 1:length(species.list)){
+  #       
+  #       print(species.list[eachspecies])
+  #       
+  #       sp.dataset <- thisdataset %>% 
+  #         filter(longname==species.list[eachspecies])
+  #       
+  #         p[[eachspecies]] <- ggplot(data = sp.dataset, aes(x = long, y = lat, group = group))+ 
+  #           geom_polygon(aes(fill = biomass), color = 'gray', size = 0.1) +
+  #           coord_fixed(1.3)+
+  #           theme_minimal()+
+  #           ggtitle(species.list[eachspecies])
+  #     }
+  #     
+  #     # Calculate the number of pages with 9 panels per page
+  #     n_pages <- ceiling(
+  #       length(levels(as.factor(thisdataset$longname)))/ 9
+  #     )
+  #     
+  #     print(n_pages)
+  #     
+  #     for (i in seq_len((n_pages-1))) {
+  #     print(i)  
+  #     thisplotname <- paste(thisvariabletype,i,"plot.pdf",sep="_")
+  #     print(thisplotname)
+  #     pdf(thisplotname, width = 12, height = 12)
+  #     
+  #     if(i == 1){do.call(grid.arrange,p[(i):(9*i)])} else {
+  #     
+  #       do.call(grid.arrange,p[((i*9)-8):(9*i)])
+  #     }
+  #     
+  #     dev.off()
+  #     
+  #     }
+   } else if (thisvariabletype=="StructN" | thisvariabletype=="ResN") {
     
     thisdataset <- group.atlantis.data %>% 
+      filter(!code %in% c("DIN","DL")) %>% 
       filter(variable_type==thisvariabletype) %>% 
       mutate(age = as.factor(age))
     
@@ -308,7 +317,7 @@ make_graph <- function(thisvariabletype){
     
     for (i in seq_len(n_pages)) {
       print(i)
-      pplot <-   ggplot(thisdataset, aes(x=Year,y=variable, group = age))+
+     try(pplot <-   ggplot(thisdataset, aes(x=Year,y=variable, group = age))+
         geom_line(aes(colour= age))+
         labs(y= thisvariabletype, x = "Year") +
         # facet_wrap(~longname, scales = "free")
@@ -316,7 +325,7 @@ make_graph <- function(thisvariabletype){
         theme(legend.position="none")+
         geom_hline(yintercept=1, linetype="solid", color = "black")+
         geom_hline(yintercept=0.5, linetype="dashed", color = "red")+
-        geom_hline(yintercept=1.5, linetype="dashed", color = "red")
+        geom_hline(yintercept=1.5, linetype="dashed", color = "red"))
       
       thisplotname <- paste(thisvariabletype,i,"plot.pdf",sep="_")
       
@@ -327,8 +336,11 @@ make_graph <- function(thisvariabletype){
   }  else {
     
     thisdataset <- group.atlantis.data %>% 
+      filter(!code %in% c("DIN","DL")) %>% 
       filter(variable_type==thisvariabletype) %>% 
       mutate(age = as.factor(age))
+    
+    write_csv(thisdataset, file=paste0(eachfolder,"/",thisvariabletype,".csv"))
     
     # Calculate the number of pages with 12 panels per page
     n_pages <- ceiling(
@@ -359,13 +371,11 @@ make_graph <- function(thisvariabletype){
 
 for(eachfolder in folder.paths) {
   
-  
-  setwd("~/")
   print(eachfolder)
-  
+
   this.output.nc <- "AMPS_OUT.nc"
   
-  this.output.biomass <- read_delim(paste0(eachfolder,"/AMPS_OUTBiomIndx.txt"), delim = " ") %>% 
+  this.output.biomass <- read_delim(paste0(eachfolder,"/","AMPS_OUTBiomIndx.txt")) %>% 
     dplyr::select(Time:DIN) %>% 
     gather(Code,biomass, -Time) %>% 
     left_join(fg.list, by="Code") %>% 
@@ -373,24 +383,24 @@ for(eachfolder in folder.paths) {
     mutate(Year = Time/365) %>% 
     dplyr::select(-IsTurnedOn, -GroupType, -NumCohorts, -Time) 
   
-  this.output.box.biomass <- read_delim(paste0(eachfolder,"/AMPS_OUTBoxBiomass.txt"), delim = " ") %>%
-    gather(Code,biomass, -Time, -Box) %>%
-    left_join(fg.list, by="Code") %>%
-    mutate(Year = Time/365) %>% 
-    filter(Time <= maxtimestep)
-  
-  max.year <- this.output.box.biomass %>% pull(Year) %>% max
-    
-  this.output.box.biomass.df <-  this.output.box.biomass %>% 
-    filter(Year == max.year) %>%
-    dplyr::select(-Code, -Time, -GroupType, -IsTurnedOn, -NumCohorts, -name) %>%
-    dplyr::rename(id=Box) %>% 
-    left_join(shape.file.df, by="id")
-  
- ggplot() +
-   geom_polygon(data = this.output.box.biomass.df, aes( x = long, y = lat, group = group, fill=biomass, color=biomass)) +
-   theme_void() +
- facet_wrap(~ longname)
+ #  this.output.box.biomass <-  read_delim(here("outputFolder","/AMPS_OUTBoxBiomass.txt")) %>%
+ #    gather(Code,biomass, -Time, -Box) %>%
+ #    left_join(fg.list, by="Code") %>%
+ #    mutate(Year = Time/365) %>% 
+ #    filter(Time <= maxtimestep)
+ #  
+ #  max.year <- this.output.box.biomass %>% pull(Year) %>% max
+ #    
+ #  this.output.box.biomass.df <-  this.output.box.biomass %>% 
+ #    filter(Year == max.year) %>%
+ #    dplyr::select(-Code, -Time, -GroupType, -IsTurnedOn, -NumCohorts, -name) %>%
+ #    dplyr::rename(id=Box) %>% 
+ #    left_join(shape.file.df, by="id")
+ #  
+ # ggplot() +
+ #   geom_polygon(data = this.output.box.biomass.df, aes( x = long, y = lat, group = group, fill=biomass, color=biomass)) +
+ #   theme_void() +
+ # facet_wrap(~ longname)
 
   nc <- open.nc(paste0(eachfolder,"/",this.output.nc))
   nc.data <- read.nc(nc)
@@ -399,7 +409,7 @@ for(eachfolder in folder.paths) {
     bind_rows()
   
  print("Graphing output")
-lapply(variabletypes, make_graph)
+lapply(variabletypes, make_graph, this.output.biomass, group.atlantis.data)
    
    
 list.files(pattern="*.*pdf") %>% 

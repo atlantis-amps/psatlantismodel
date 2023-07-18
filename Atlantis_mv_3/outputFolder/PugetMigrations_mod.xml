@@ -1,0 +1,1227 @@
+<?xml version="1.0"?>
+<AttributeGroup AttributeGroupName="AtlantisMigrations">
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="HEP"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="182"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="258"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="15"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="15"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="2.7"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.72"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="HEP"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="182"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="258"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="15"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="15"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.72"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="HEC"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="182"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="258"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="15"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="15"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="2.7"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.67"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="HEC"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="182"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="258"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="15"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="15"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.67"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CHY"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="213"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="168"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="3"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="5"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CHY"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="258"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="259"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CHS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="227"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="168"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CHS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="258"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="259"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CSY"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="213"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="121"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="3"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="5"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CSY"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="232"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="246"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CSS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="227"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="165"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CSS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="232"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="277"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CSN"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="227"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="90"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CSN"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="239"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="277"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CDS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="227"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="168"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CDS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="272"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="317"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CNY"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="213"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="178"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="3"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="5"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CNY"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="232"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="277"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CNS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="227"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="178"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CNS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="232"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="277"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CHC"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="227"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="151"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CHC"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="236"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="281"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CYE"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="213"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="151"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CYE"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="265"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="310"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CKS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="227"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="151"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CKS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="265"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="310"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="COH"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="213"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="218"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="2"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="COH"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="305"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="306"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="COS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="213"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="126"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="2"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="COS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="274"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="319"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="COD"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="213"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="208"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="2"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="COD"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="305"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="350"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="COY"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="213"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="151"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="2"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="COY"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="298"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="343"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CMS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="196"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="274"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CMS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="344"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="345"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CMF"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="196"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="274"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CMF"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="344"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="24"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CMH"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="110"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="195"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CMH"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="258"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="303"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="PIS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="213"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="215"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="20"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="2"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="PIS"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="260"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="305"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="SAL"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="213"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="127"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="3"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="5"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="SAL"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="263"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="308"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="SAF"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="227"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="199"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="0"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="4"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="6"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="SAF"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="244"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="289"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="1"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="1"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="DOG"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="1"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="121"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="15"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="15"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0.2"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.97"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="DOG"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="1"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="121"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="15"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="15"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.97"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="SBL"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="91"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="305"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="1"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="1"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.95"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="SBL"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="91"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="305"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="30"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="30"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.95"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="SP"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="152"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="273"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="30"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="30"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.805"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="SP"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="152"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="273"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="30"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="30"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.805"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="BE"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="30"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="305"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="60"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="60"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.959"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="BE"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="30"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="251"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="60"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="60"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.755"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="BE"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="1"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="206"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="305"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="7"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.959"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="BE"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="1"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="206"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="251"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="7"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="7"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.755"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CSL"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="69"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="244"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="30"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="30"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0.31"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.735"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="CSL"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="69"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="244"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="30"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="30"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.735"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="PIN"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="32"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="244"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="30"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="30"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0.19"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.875"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="PIN"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="32"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="244"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="30"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="30"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.875"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="ROR"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="274"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="121"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="45"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0.02"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.997"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="ROR"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="274"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="121"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="45"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="45"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.997"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="TOR"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="244"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="60"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="60"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="60"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0.01"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.998"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="TOR"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="1"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="152"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="182"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="60"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="60"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0.01"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.999"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="TOR"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="244"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="60"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="15"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="15"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.998"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="TOR"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="1"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="152"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="182"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="15"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="15"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.999"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="HUW"/>
+    <Attribute AttributeName="StartStage" AttributeValue="0"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="335"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="121"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="30"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="30"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0.02"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.86"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+  <AttributeSubGroup AttributeGroupName="MigrationGroup" AttributeDescription="The defintion of a migration">
+    <Attribute AttributeName="GroupCode" AttributeValue="HUW"/>
+    <Attribute AttributeName="StartStage" AttributeValue="1"/>
+    <Attribute AttributeName="MigID" AttributeValue="0"/>
+    <Attribute AttributeName="StartTofY" AttributeValue="335"/>
+    <Attribute AttributeName="EndTofY" AttributeValue="121"/>
+    <Attribute AttributeName="Leave_Period" AttributeValue="30"/>
+    <Attribute AttributeName="Return_Period" AttributeValue="30"/>
+    <Attribute AttributeName="IsAnnualMigration" AttributeValue="1"/>
+    <Attribute AttributeName="MinTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MaxTimeAway" AttributeValue="0"/>
+    <Attribute AttributeName="MigrateStockReturn" AttributeValue="1"/>
+    <Attribute AttributeName="MigPropSizeInc" AttributeValue="0"/>
+    <Attribute AttributeName="MigPropSurvive" AttributeValue="0.86"/>
+    <Attribute AttributeName="PartialExit" AttributeValue="0"/>
+    <Attribute AttributeName="MinAgeLeave" AttributeValue="0"/>
+    <Attribute AttributeName="MaxAgeLeave" AttributeValue="0"/>
+  </AttributeSubGroup>
+</AttributeGroup>
