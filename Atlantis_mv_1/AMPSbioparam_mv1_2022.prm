@@ -483,8 +483,10 @@ flagstarve 1 Give starvation notices: 0 = no, 1 = yes 0
  
 flagtempchange 0 Mean temperature changes: 0 = no, 1 = yes 0
  
-flagtempdepend 1 0 = off, 1 = temperature preferences used
- 
+flagtempdepend_move 1  0 = off, 1 = temperature preferences used for movement
+
+flagtempdepend_reprod 0  0 = off, 1 = temperature preferences used for reproduction
+
 flagtrackpops 1 Flag to indicate whether yearly stock value required 1
  
 flagtsforcerecruit 0 Force recruitment of 1+ groups with environmental forcing 0
