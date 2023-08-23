@@ -29,3 +29,7 @@ diffr("AMPSbioparamV6_B1984.prm", "AMPSbioparam_mv1_2022.prm", contextSize = 3, 
 
 grep -rnw '/home/atlantis/trunk/' -e 'corrupted size'
 grep -Ril "corrupted size" /
+  
+  
+  
+  
