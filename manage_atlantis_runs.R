@@ -99,11 +99,11 @@ atlantis.scenarios <- foreach(this.index=folder.length, .verbose = TRUE) %dopar%
   lapply(.packages, require, character.only=TRUE)
   
   this.folder <- folder.paths[this.index]
-  setwd(this.folder)
+
   system("sudo chmod -R a+rwx ~/", wait = TRUE)
-  
+  setwd(this.folder)
   # run Atlantis scenario
-  system(paste("sudo flip -uv *; sudo chmod +x ", sh.file,"; sudo sh ./", sh.file, sep=""), wait = TRUE)
+  system(paste("cd ",this.folder," sudo flip -uv *; sudo chmod +x ", sh.file,"; sudo sh ./", sh.file, sep=""), wait = TRUE)
   
   done <- as.data.frame("done")
 }
