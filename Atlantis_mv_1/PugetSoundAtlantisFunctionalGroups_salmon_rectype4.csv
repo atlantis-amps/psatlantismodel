@@ -1,4 +1,4 @@
-Code,Index,IsTurnedOn,Name,Long Name,NumCohorts,NumGeneTypes,NumStages,NumSpawns,NumAgeClassSize,NumStocks,VerticallyMigrates,HorizontallyMigrates,NumMigrations,MultiYrMigrations,ExternalReproduction,RecruitType,IsFished,IsImpacted,isTAC,GroupType,IsPredator,IsCover,IsSiliconDep,IsAssessed,IsCatchGrazer,OverWinters,isCultured,isHabDepend,numMoveEntries,isBioEroder,isSupplemented,isExternal
+Code,Index,IsTurnedOn,Name,LongName,NumCohorts,NumGeneTypes,NumStages,NumSpawns,NumAgeClassSize,NumStocks,VerticallyMigrates,HorizontallyMigrates,NumMigrations,MultiYrMigrations,ExternalReproduction,RecruitType,IsFished,IsImpacted,isTAC,GroupType,IsPredator,IsCover,IsSiliconDep,IsAssessed,IsCatchGrazer,OverWinters,isCultured,isHabDepend,numMoveEntries,isBioEroder,isSupplemented,isExternal
 BB,0,1,Sed_Bact,Benthic bacteria,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,SED_BACT,0,0,0,0,0,0,0,0,1,0,0,0
 PB,1,1,Pelag_Bact,Pelagic bacteria,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,PL_BACT,0,0,0,0,0,0,0,0,1,0,0,0
 PL,2,1,Lrg_Phyto,Large phytoplankton,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,LG_PHY,0,0,1,0,0,0,0,0,1,0,0,0
