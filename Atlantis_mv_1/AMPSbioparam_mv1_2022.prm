@@ -1,85 +1,83 @@
 ## Biological parameter file for use with the Atlantis Model for Puget Sound             
 #  Isaac Kaplan, Hem Nalini Morzaria-Luna
-#  Hem PRM sent April 18 but with flip to
-#jTOR_migrate_time
-#jCSL_migrate_time
-#TOR_migrate time
+# AMPS model tech memo
+#H. Morzaria-Luna, I.C. Kaplan, C.J. Harvey, R. Girardin, E.A. Fulton, P. MacCready, B. Chasco, P. Horne, M. Schmidt. In press. Design and Parameterization of a Spatially Explicit Atlantis Ecosystem Model for Puget Sound. NOAA Technical Memorandum NMFS-NWFSC-177. Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration. https://repository.library.noaa.gov/view/noaa/40463
 
 # Functional Groups
 # Atlantis-PS-code Atlantis-PS-names
-# DC Carrion
-# DL Labile detritus
-# DR Refractory detritus
-# BB Benthic bacteria
-# PB Pelagic bacteria
-# PL Large phytoplankton
-# PS Small phytoplankton
-# MA macroalgae
-# SG Seagrass
-# ZS Microzooplankton
-# ZM Mesozooplankton
-# ZL Large zooplankton
-# ZG Gelatinous zooplankton
-# SQX Squid
-# BMD Deep macro-zoobenthos
-# BD Deposit feeders
-# BG Benthic grazers
-# BMS Octopi
-# DUN Dungeness crab
-# BML Crabs
-# PWN Shrimp
-# BFF Benthic filter feeder
-# BIV Bivalves
-# GEC Geoducks
-# BC carnivorous infauna
-# HE1 Pacific Herring Puget Sound
-# HE2 Pacific Herring Cherry Point
-# FPS Small Planktivorous Fish
-# POP Surfperch
-# CI1 Chinook Hatch Yearling
-# CI2 Chinook Hatch Subyearling
-# CI3 Chinook Skagit Yearling
-# CI4 Chinook Skagit Subyearling
-# CI5 Chinook Snohomish Subyearling
-# CI6 Chinook Duwamish Subyearling
-# CI7 Chinook Nisqually Yearling
-# CI8 Chinook Nisqually Subyearling
-# CI9 Chinook Hood Canal Subyearling
-# CI10 Chinook other Yearling
-# CI11 Chinook other Subyearling
-# CO1 Coho Hatch Yearling
-# CO2 Coho Skagit Yearling
-# CO3 Coho Deep South Yearling
-# CO4 Coho other Yearling
-# CU1 Chum Hatch Subyearling
-# CU2 Chum Fall Subyearling
-# CU3 Chum Hood Canal summer run Subyearling
-# PIS Pink Salmon Subyearling
-# SAL Other salmonids
-# SAF Strait of Georgia salmonids
-# FMM Hake /Large gadoids
-# FVS Large demersal predators
-# ROC Demersal rockfish
-# MRO Midwater rockfish
-# DVR Demersal vulnerable rockfish
-# MVR Midwater vulnerable rockfish
-# SMD Small demersal fish
-# FDF Small-mouthed Flatfish
-# HAP Piscivorous flatfish
-# DOG Spiny dogfish
-# SBL Sixgill Shark
-# SSK Skates
-# RAT Ratfish
-# SB Seabirds (piscivorous)
-# SP Seabirds (mainly non-piscivorous)
-# BE Raptors
-# HSL Harbor seals
-# CSL California sea lions
-# PIN Steller sea lions
-# PHR Harbor porpoise
-# ORC1 Resident Orca
-# ORC2 Transient Orca
-# HUW Humpbacks whale
+#   BB	Benthic bacteria
+# PB	Pelagic bacteria
+# PL	Large phytoplankton
+# PS	Small phytoplankton
+# MA	Macroalgae
+# SG	Seagrass
+# ZS	Microzooplankton
+# ZM	Mesozooplankton
+# ZL	Large zooplankton
+# ZG	Gelatinous zooplankton
+# SQX	Squid
+# BMD	Deep macro-zoobenthos
+# BD	Deposit feeders
+# BG	Benthic grazers
+# BMS	Octopi
+# DUN	Dungeness crab
+# BML	Crabs
+# PWN	Shrimp
+# BFF	Benthic filter feeder
+# BIV	Bivalves
+# GEC	Geoducks
+# BC	Carnivorous infauna
+# HEP	Pacific Herring Puget Sound
+# HEC	Pacific Herring Cherry Point
+# FPS	Small Planktivorous Fish
+# POP	Perch
+# CHY	Chinook Hatch Yearling
+# CHS	Chinook Hatch Subyearling
+# CSY	Chinook Skagit Yearling
+# CSS	Chinook Skagit Subyearling
+# CSN	Chinook Snohomish Subyearling
+# CDS	Chinook Duwamish Subyearling
+# CNY	Chinook Nisqually Yearling
+# CNS	Chinook Nisqually Subyearling
+# CHC	Chinook Hood Canal Subyearling
+# CYE	Chinook other Yearling
+# CKS	Chinook other Subyearling
+# COH	Coho Hatch Yearling
+# COS	Coho Skagit Yearling
+# COD	Coho Deep South Yearling
+# COY	Coho other Yearling
+# CMS	Chum Hatch Subyearling
+# CMF	Chum Fall Subyearling
+# CMH	Chum Hood Canal summer run Subyearling
+# PIS	Pink Salmon Subyearling
+# SAL	Other salmonids
+# SAF	Strait of Georgia salmonids
+# FMM	Hake_Large gadoids
+# FVS	Large demersal predators
+# ROC	Demersal rockfish
+# MRO	Midwater rockfish
+# DVR	Demersal vulnerable rockfish
+# MVR	Midwater vulnerable rockfish
+# SMD	Small demersal fish
+# FDF	Small-mouthed Flatfish
+# HAP	Piscivorous flatfish
+# DOG	Spiny dogfish
+# SBL	Sixgill Shark
+# SSK	Skates
+# RAT	Ratfish
+# SB	Seabirds (piscivorous)
+# SP	Seabirds (mainly non-piscivorous)
+# BE	Raptors
+# HSL	Harbor seals
+# CSL	California sea lions
+# PIN	Steller sea lions
+# PHR	Harbor porpoise
+# ROR	Resident Orca
+# TOR	Transient Orca
+# HUW	Humpback whales
+# DL	Labile detritus
+# DR	Refractory detritus
+# DC	Carrion
 
 #    Additional state variables for biological components that are not functional groups: : 
 
@@ -26294,8 +26292,6 @@ ROR_norm_sigma 0
 TOR_norm_sigma 0
 HUW_norm_sigma 0
 
-
-flagtemprec 0 # Flag turns on effects of temperature on recruitment
 
 # q10_method_XXX provides different ways to	calculate	the	Tcorr	scalar
 
