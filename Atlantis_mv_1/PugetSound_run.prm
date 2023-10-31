@@ -8,7 +8,7 @@
 verbose       0		# Detailed logged output. 18 is everything. 
 
 flagecon_on        0   # Flag showing whether want economics loaded and submodel run (1) or not (0)
-flag_fisheries_on  0   # Flag showing whether want fisheries loaded and submodel run (1) or not (0)
+flag_fisheries_on  1   # Flag showing whether want fisheries loaded and submodel run (1) or not (0)
 flag_migration_on  1   # Flag showing whether migration submodel run (1) or not (0)
 flag_skip_biol     0   # Flag showing whether want biological model run (0) or not (1 - only used when debugging fisheries)
 flag_skip_phys     0   # Flag showing whether want physics model run (0) or not (1 - only used when debugging fisheries)
@@ -26,7 +26,7 @@ flagIsPolar 0
 flagenviro_warn 0
 K_num_basket 1
 flag_mig_in_bioindx 1
-
+flag_replicated_old_PPmort 0
 
 debug_it	0
 checkbox      999        # Give detailed logged output for this box
@@ -57,10 +57,10 @@ debug         18       # 0=debuging off, 1=debug fishing, 2=debug discards, 3=de
 
 title      Puget Sound Atlantis Model
 dt         	12 hour     # 12 hour time step
-tstop      	30 day    # Stop time after the given period  18255   30yr:  10960   25 yr: 9125   20yr: 7300  15 yr: 5500  10yr:3700  5yr:  1850  3yr: 1100  101yr-- 37000 Test run: 18255
-toutstart  	1 day       # Output start time
-toutinc    	1 day       # Write output with this periodicity
-toutfinc   	1 day     # Write fisheries output with this periodicity
+tstop      	365 day    # Stop time after the given period  18255   30yr:  10960   25 yr: 9125   20yr: 7300  15 yr: 5500  10yr:3700  5yr:  1850  3yr: 1100  101yr-- 37000 Test run: 18255
+toutstart  	73 day       # Output start time
+toutinc    	73 day       # Write output with this periodicity
+toutfinc   	73 day     # Write fisheries output with this periodicity
 tburnday   0 day
 external_box 0
 flagAllowLand 0      # Flag added 05/26/2015 to determine if any boxes are treated as land (1) or not (0)
@@ -85,7 +85,7 @@ K_num_detritus   3     # Total number of detritus groups in the model (labile an
 # (needed to  parameter arrays in the initialisation section of the model,
 # best left untouched for now) 
 K_num_fisheries   59   # Maximum number of fisheries
-K_num_ports       17   # Maxiumum number of ports in the model area 
+K_num_ports       3   # Maxiumum number of ports in the model area 
 K_max_num_zoning  1    # Maximum number of spatial zonings used in the model
 K_num_reg         2    # Maximum number of management zonings used in the model
 K_num_markets     2    # Maxiumum number of markets in the model area 
