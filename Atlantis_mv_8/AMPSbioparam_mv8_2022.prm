@@ -2766,7 +2766,7 @@ salt_correction_ROR   1
 salt_correction_TOR   1
 salt_correction_HUW   1
 
-# Coefficient A in Gary Griffith temperature function originally 0.851 overall
+# Coefficient A in Gary Griffith temperature function originally 0.851 overall, used to in 3-param method (Rovellini) to define slope
 
 temp_coefftA_BB   0.851
 temp_coefftA_PB   0.851
@@ -2838,6 +2838,109 @@ temp_coefftA_PHR   0.851
 temp_coefftA_ROR   0.851
 temp_coefftA_TOR   0.851
 temp_coefftA_HUW   0.851
+
+#Optimum temp
+
+q10_optimal_temp_HEP   13
+q10_optimal_temp_HEC   13
+q10_optimal_temp_FPS   15
+q10_optimal_temp_POP   15
+q10_optimal_temp_CHY   15
+q10_optimal_temp_CHS   15
+q10_optimal_temp_CSY   15
+q10_optimal_temp_CSS   15
+q10_optimal_temp_CSN   15
+q10_optimal_temp_CDS   15
+q10_optimal_temp_CNY   15
+q10_optimal_temp_CNS   15
+q10_optimal_temp_CHC   15
+q10_optimal_temp_CYE   15
+q10_optimal_temp_CKS   15
+q10_optimal_temp_COH   18
+q10_optimal_temp_COS   18
+q10_optimal_temp_COD   18
+q10_optimal_temp_COY   18
+q10_optimal_temp_CMS   15
+q10_optimal_temp_CMF   15
+q10_optimal_temp_CMH   15
+q10_optimal_temp_PIS   15
+q10_optimal_temp_SAL   15
+q10_optimal_temp_SAF   15
+q10_optimal_temp_FMM   15
+q10_optimal_temp_FVS   15
+q10_optimal_temp_ROC   15
+q10_optimal_temp_MRO   15
+q10_optimal_temp_DVR   15
+q10_optimal_temp_MVR   15
+q10_optimal_temp_SMD   15
+q10_optimal_temp_FDF   15
+q10_optimal_temp_HAP   15
+q10_optimal_temp_DOG   15
+q10_optimal_temp_SBL   15
+q10_optimal_temp_SSK   15
+q10_optimal_temp_RAT   15
+q10_optimal_temp_SB   15
+q10_optimal_temp_SP   15
+q10_optimal_temp_BE   15
+q10_optimal_temp_HSL   15
+q10_optimal_temp_CSL   15
+q10_optimal_temp_PIN   15
+q10_optimal_temp_PHR   15
+q10_optimal_temp_ROR   15
+q10_optimal_temp_TOR   15
+q10_optimal_temp_HUW   15
+
+# q10 correction parameter for GG's formulation (1000)
+#q10_correction_XXX is maximum temperature for method 2
+
+q10_correction_HEP   15
+q10_correction_HEC   15
+q10_correction_FPS   1000
+q10_correction_POP   1000
+q10_correction_CHY   20.9
+q10_correction_CHS   20.9
+q10_correction_CSY   20.9
+q10_correction_CSS   20.9
+q10_correction_CSN   20.9
+q10_correction_CDS   20.9
+q10_correction_CNY   20.9
+q10_correction_CNS   20.9
+q10_correction_CHC   20.9
+q10_correction_CYE   20.9
+q10_correction_CKS   20.9
+q10_correction_COH   24
+q10_correction_COS   24
+q10_correction_COD   24
+q10_correction_COY   24
+q10_correction_CMS   1000
+q10_correction_CMF   1000
+q10_correction_CMH   1000
+q10_correction_PIS   1000
+q10_correction_SAL   1000
+q10_correction_SAF   1000
+q10_correction_FMM   1000
+q10_correction_FVS   1000
+q10_correction_ROC   1000
+q10_correction_MRO   1000
+q10_correction_DVR   1000
+q10_correction_MVR   1000
+q10_correction_SMD   1000
+q10_correction_FDF   1000
+q10_correction_HAP   1000
+q10_correction_DOG   1000
+q10_correction_SBL   1000
+q10_correction_SSK   1000
+q10_correction_RAT   1000
+q10_correction_SB   1000
+q10_correction_SP   1000
+q10_correction_BE   1000
+q10_correction_HSL   1000
+q10_correction_CSL   1000
+q10_correction_PIN   1000
+q10_correction_PHR   1000
+q10_correction_ROR   1000
+q10_correction_TOR   1000
+q10_correction_HUW   1000
 
 # Damping coefficient for BB fluxes
 
