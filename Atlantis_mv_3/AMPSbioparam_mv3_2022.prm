@@ -482,7 +482,7 @@ flagtempchange 0 Mean temperature changes: 0 = no, 1 = yes 0
  
 flagtempdepend_move 1  0 = off, 1 = temperature preferences used for movement
 
-flagtempdepend_reprod 0  0 = off, 1 = temperature preferences used for reproduction
+flagtempdepend_reprod 1  0 = off, 1 = temperature preferences used for reproduction
  
 flagtrackpops 1 Flag to indicate whether yearly stock value required 1
  
