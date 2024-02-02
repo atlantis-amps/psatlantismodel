@@ -2,11 +2,14 @@
 #' Inputs: Folders with different atlantis code versions, compares *.c files
 #' Outputs: text file with differences in files
 #' @author Hem Nalini Morzaria Luna
-#' @date Last edited November 2023
+#' @date Last edited January 2024
 #' 
 
 # List of packages for session
 .packages = c("diffr", "tidyverse","here")
+
+#List revisions
+#svn log -v  -l 2 https://svnserv.csiro.au/svn/ext/atlantis/Atlantis/trunk --username XXXX --password XXXX
 
 
 # Install CRAN packages (if not already installed)
