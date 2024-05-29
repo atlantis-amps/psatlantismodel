@@ -20,7 +20,7 @@ system("sudo chmod -R a+rw ~/")
 
 system("sudo chmod -R a+rw /usr/local/lib/R/site-library")
 
-
+##CHANGE THESE PARAMETERS
 #this.folder <- "base_runs" # 
 model.var <- c(1) # different model versions that are used
 
@@ -45,8 +45,13 @@ biom.output.file <- "biom_comp_6693_base_mv1"
 #add run names
 run.names <- c("6693","6690","6681","6676","6533M")
 
+##END TO CHANGES IN PARAMETERS
+
+
 #specify colors
-run.colors <- c("dodgerblue","darkblue","darkgreen","darkgoldenrod","pink")
+run.colors <- c("#b30000", "#7c1158", "#4421af", "#1a53ff", "#0d88e6", "#00b7c7", "#5ad45a", "#8be04e", "#ebdc78",
+                                   "#ea5545", "#f46a9b", "#ef9b20", "#edbf33", "#ede15b", "#bdcf32", "#87bc45", "#27aeef", "#b33dc6")
+
 names(run.colors) <- run.names
 
 
