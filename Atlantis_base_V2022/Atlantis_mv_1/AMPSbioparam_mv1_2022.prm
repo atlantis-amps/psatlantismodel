@@ -4113,8 +4113,6 @@ flagTORMultiyrMigrate   0
 flagHUWMultiyrMigrate   0
 
 # External reproduction - spawn is based on adult population within model domain, but actual reproduction occurs outside model domain (0 = no, 1 = yes)
-
-# External reproduction - spawn is based on adult population within model domain, but actual reproduction occurs outside model domain (0 = no, 1 = yes)
 flagext_reprodDC   0
 flagext_reprodDL   0
 flagext_reprodDR   0
