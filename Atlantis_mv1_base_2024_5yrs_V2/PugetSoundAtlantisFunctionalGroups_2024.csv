@@ -45,7 +45,7 @@ COS,42,1,CohoSY_Fish,Coho Skagit Yearling,3,1,2,1,1,1,1,1,1,1,1,4,1,1,0,FISH,1,0
 COD,43,1,CohoDSY_Fish,Coho Deep South Yearling,3,1,2,1,1,1,1,1,1,1,1,4,1,1,0,FISH,1,0,0,0,0,0,0,0,12,0,2,1
 COY,44,1,CohoOY_Fish,Coho other Yearling,3,1,2,1,1,1,1,1,1,1,1,4,1,1,0,FISH,1,0,0,0,0,0,0,0,12,0,2,1
 COR,45,1,CohoRes_Fish,Coho resident Puget Sound wide,3,1,2,1,1,1,1,1,0,0,0,0,1,1,0,FISH,1,0,0,0,0,0,0,0,1,0,2,0
-CDR,47,,CohoResD_Fish,Coho resident Deep South Yearling,3,1,2,1,1,1,1,1,0,0,0,0,1,1,0,FISH,1,0,0,0,0,0,0,0,12,0,2,0
+CDR,47,1,CohoResD_Fish,Coho resident Deep South Yearling,3,1,2,1,1,1,1,1,0,0,0,0,1,1,0,FISH,1,0,0,0,0,0,0,0,1,0,2,0
 CMS,46,1,ChumHSY_Fish,Chum Hatch Subyearling,5,1,2,1,1,1,1,1,1,1,1,4,1,1,0,FISH,1,0,0,0,0,0,0,0,12,0,2,1
 CMF,48,1,ChumFSY_Fish,Chum Fall Subyearling,5,1,2,1,1,1,1,1,1,1,1,4,1,1,0,FISH,1,0,0,0,0,0,0,0,12,0,2,1
 CMH,49,1,ChumHCSY_Fish,Chum Hood Canal summer run Subyearling,5,1,2,1,1,1,1,1,1,1,1,4,1,1,0,FISH,1,0,0,0,0,0,0,0,12,0,2,1
