@@ -5,7 +5,7 @@
 #  Puget Sound , Washington State, USA  run file. 
 #############################################
 # Run parameters
-verbose       5		# Detailed logged output. 18 is everything. 
+verbose       0		# Detailed logged output. 18 is everything. 5 is also useful
 
 flagecon_on        0   # Flag showing whether want economics loaded and submodel run (1) or not (0)
 flag_fisheries_on  0   # Flag showing whether want fisheries loaded and submodel run (1) or not (0)
