@@ -20192,7 +20192,7 @@ li_b_ROR   3
 li_b_TOR   3
 li_b_HUW   3
 
-#   Flag   indicating   which   traits   can   evolve   (or   has   multiple   parameterisations)   size   at   maturity.   Easiest   to   set   to   0.      This   is   an   optional   minimum   length   (where   the   allometric   length/weight   conversion   parameters   li_a_XXX   and   li_b_XXX   are   used   to   get   length)   required   for   sexual   maturation   is   set   in   min_li_mat_XXX.   If   this   parameter   is   >   0   then   the   no   maturation   will   occur   in   an   age   class   if   it   is   below   the   maturation   length   even   if   FSPB   parameter   for   that   age   class   is   >   0.
+#   Minimum length at maturity - Flag   indicating   which   traits   can   evolve   (or   has   multiple   parameterisations)   size   at   maturity.   Easiest   to   set   to   0.      This   is   an   optional   minimum   length   (where   the   allometric   length/weight   conversion   parameters   li_a_XXX   and   li_b_XXX   are   used   to   get   length)   required   for   sexual   maturation   is   set   in   min_li_mat_XXX.   If   this   parameter   is   >   0   then   the   no   maturation   will   occur   in   an   age   class   if   it   is   below   the   maturation   length   even   if   FSPB   parameter   for   that   age   class   is   >   0.
 
 min_li_mat_HEP   0
 min_li_mat_HEC   0
@@ -23027,7 +23027,6 @@ FSPB_POP      8
    
 0   0.1   0.5   0.9   1   1   1   1
    
-
 
 FSPB_CHY      5
    
