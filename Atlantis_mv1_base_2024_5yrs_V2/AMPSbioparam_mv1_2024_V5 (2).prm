@@ -20719,12 +20719,6 @@ KB_MRO   0.7515
 KB_DVR   0.7515
 KB_MVR   0.7515
 KB_SMD   0.66815
-KB_FDF   0.78
-KB_HAP   0.78
-KB_DOG   0.86
-KB_SBL   0.78
-KB_SSK   0.78
-KB_RAT   0.78
 KB_SB   0.774
 KB_SP   0.774
 KB_BE   0.774
@@ -23219,17 +23213,17 @@ FSPB_RAT      10
 
 FSPB_SB      10
    
-0   0.5   0.9   1   1   1   1   1   1   1
+0.1   0.5   0.9   1   1   1   1   1   1   1
    
 
 FSPB_SP      10
    
-0   0.5   0.9   1   1   1   1   1   1   1
+0.1   0.5   0.9   1   1   1   1   1   1   1
    
 
 FSPB_BE      10
    
-0   0.5   0.9   1   1   1   1   1   1   1
+0.1   0.5   0.9   1   1   1   1   1   1   1
    
 
 FSPB_HSL      10
@@ -23249,22 +23243,22 @@ FSPB_PIN      10
 
 FSPB_PHR      10
    
-0   0.5   0.9   1   1   1   1   1   1   1
+0.1   0.5   0.9   1   1   1   1   1   1   1
    
 
 FSPB_ROR      10
    
-0   0.5   0.9   1   1   1   1   1   1   1
+0.1   0.5   0.9   1   1   1   1   1   1   1
    
 
 FSPB_TOR      10
    
-0   0.5   0.9   1   1   1   1   1   1   1
+0.1   0.5   0.9   1   1   1   1   1   1   1
    
 
 FSPB_HUW      10
    
-0   0.9   1   1   1   1   1   1   1   1
+0.5   0.9   1   1   1   1   1   1   1   1
    
 
 #   Stock-Recruit   options.   Total   number   of   new   recruits   for   the   year   (used   if   recruit   flag   is   set   to   1)   or   number   produced   per   adult   (used   if   recruit   flag   is   set   to   12)   should   be   half   to   account   only   for   offspring   per   female,   not   per   adult.      Values   should   be   there   even   f   group   doesn't   use   recruitment   option
