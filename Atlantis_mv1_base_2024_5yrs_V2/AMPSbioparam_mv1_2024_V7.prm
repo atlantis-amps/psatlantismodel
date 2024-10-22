@@ -3619,25 +3619,25 @@ DL_ddepend_move   4
 DR_ddepend_move   4
 BB_ddepend_move   4
 PB_ddepend_move   4
-PL_ddepend_move   4
-PS_ddepend_move   4
+PL_ddepend_move   0
+PS_ddepend_move   0
 MA_ddepend_move   4
 SG_ddepend_move   4
-ZS_ddepend_move   4
-ZM_ddepend_move   4
-ZL_ddepend_move   4
-ZG_ddepend_move   4
-AUR_ddepend_move   4
-SQX_ddepend_move   4
-BMD_ddepend_move   4
-BD_ddepend_move   4
-BG_ddepend_move   4
-BMS_ddepend_move   4
-DUN_ddepend_move   4
-BML_ddepend_move   4
-PWN_ddepend_move   4
-BFF_ddepend_move   4
-BIV_ddepend_move   4
+ZS_ddepend_move   0
+ZM_ddepend_move   0
+ZL_ddepend_move   0
+ZG_ddepend_move   0
+AUR_ddepend_move   0
+SQX_ddepend_move   0
+BMD_ddepend_move   0
+BD_ddepend_move   0
+BG_ddepend_move   0
+BMS_ddepend_move   0
+DUN_ddepend_move   0
+BML_ddepend_move   0
+PWN_ddepend_move   0
+BFF_ddepend_move   0
+BIV_ddepend_move   0
 GEC_ddepend_move   4
 BC_ddepend_move   0
 HEP_ddepend_move   0
@@ -3693,6 +3693,7 @@ PHR_ddepend_move   0
 ROR_ddepend_move   0
 TOR_ddepend_move   0
 HUW_ddepend_move   0
+
 
 #   Preferred   location   trend   (whether   to   weight   vertical   distributions   towards   surface   or   bottom   layers   when   in   depths   where   there   were   less   than   complete   set   of   depth   layers)   1   =   on,   0   =   off
 
@@ -14060,6 +14061,7 @@ FFDF_S2 89
 FFDF_S3 89
  
 0 0.06425113 0.14455329 0.02365705 0.01470003 0.00374201 0.00877302 0.00756302 0.05464511 0.07211114 0.00852302 0.00442401 0.01249302 0.01744203 0.00699901 0.000792 0.00297701 0 0.00536001 0.00583101 0.03487207 0.00544201 0.00573001 0.01503803 0.00434801 0.00291001 0.00809602 0.00673401 0.02504605 0.01885004 0.002045 0.002056 0.06068112 0.01569703 0.00611201 0.02508205 0.02172804 0.01034802 0.00833502 0.00385801 0.00625501 0.04651409 0.02279905 0.06561513 0.001575 0.00322301 0.000182 0.00256101 0.00977902 0.000121 0.01843504 0.001728 0.00480801 0.000487 0.00092 0.02181404 0.02131504 0.02023704 0.00429701 0.00548901 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
 FFDF_S4 89
  
 0 0.06425113 0.14455329 0.02365705 0.01470003 0.00374201 0.00877302 0.00756302 0.05464511 0.07211114 0.00852302 0.00442401 0.01249302 0.01744203 0.00699901 0.000792 0.00297701 0 0.00536001 0.00583101 0.03487207 0.00544201 0.00573001 0.01503803 0.00434801 0.00291001 0.00809602 0.00673401 0.02504605 0.01885004 0.002045 0.002056 0.06068112 0.01569703 0.00611201 0.02508205 0.02172804 0.01034802 0.00833502 0.00385801 0.00625501 0.04651409 0.02279905 0.06561513 0.001575 0.00322301 0.000182 0.00256101 0.00977902 0.000121 0.01843504 0.001728 0.00480801 0.000487 0.00092 0.02181404 0.02131504 0.02023704 0.00429701 0.00548901 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -20192,7 +20194,7 @@ li_b_ROR   3
 li_b_TOR   3
 li_b_HUW   3
 
-#   Flag   indicating   which   traits   can   evolve   (or   has   multiple   parameterisations)   size   at   maturity.   Easiest   to   set   to   0.      This   is   an   optional   minimum   length   (where   the   allometric   length/weight   conversion   parameters   li_a_XXX   and   li_b_XXX   are   used   to   get   length)   required   for   sexual   maturation   is   set   in   min_li_mat_XXX.   If   this   parameter   is   >   0   then   the   no   maturation   will   occur   in   an   age   class   if   it   is   below   the   maturation   length   even   if   FSPB   parameter   for   that   age   class   is   >   0.
+#   Size   at   maturity.   This   is   an   optional   minimum   length   (where   the   allometric   length/weight   conversion   parameters   li_a_XXX   and   li_b_XXX   are   used   to   get   length)   required   for   sexual   maturation  in cm.   If   this   parameter   is   >   0   then   the   no   maturation   will   occur   in   an   age   class   if   it   is   below   the   maturation   length   even   if   FSPB   parameter   for   that   age   class   is   >   0.
 
 min_li_mat_HEP   0
 min_li_mat_HEC   0
@@ -20240,13 +20242,13 @@ min_li_mat_RAT   0
 min_li_mat_SB   0
 min_li_mat_SP   0
 min_li_mat_BE   0
-min_li_mat_HSL   0
-min_li_mat_CSL   0
-min_li_mat_PIN   0
-min_li_mat_PHR   0
-min_li_mat_ROR   0
-min_li_mat_TOR   0
-min_li_mat_HUW   0
+min_li_mat_HSL   138
+min_li_mat_CSL   140
+min_li_mat_PIN   140 # Same as CSL could not find any data
+min_li_mat_PHR   142
+min_li_mat_ROR   600
+min_li_mat_TOR   600
+min_li_mat_HUW   1100
 
 #   Depth   consumers   can   dig   "into,"   are   found   down   to   in   the   sediment.   If   it   lives   in   the   sediment   \96   approximately   metres;   even   surface   things   are   0.03   (3   cm).      Sediment   penetration   depth   m
 
