@@ -3619,16 +3619,16 @@ DL_ddepend_move   4
 DR_ddepend_move   4
 BB_ddepend_move   4
 PB_ddepend_move   4
-PL_ddepend_move   0
-PS_ddepend_move   0
+PL_ddepend_move   4
+PS_ddepend_move   4
 MA_ddepend_move   4
 SG_ddepend_move   4
-ZS_ddepend_move   0
-ZM_ddepend_move   0
-ZL_ddepend_move   0
-ZG_ddepend_move   0
-AUR_ddepend_move   0
-SQX_ddepend_move   0
+ZS_ddepend_move   4
+ZM_ddepend_move   4
+ZL_ddepend_move   4
+ZG_ddepend_move   4
+AUR_ddepend_move   4
+SQX_ddepend_move   4
 BMD_ddepend_move   0
 BD_ddepend_move   0
 BG_ddepend_move   0
@@ -3638,7 +3638,7 @@ BML_ddepend_move   0
 PWN_ddepend_move   0
 BFF_ddepend_move   0
 BIV_ddepend_move   0
-GEC_ddepend_move   4
+GEC_ddepend_move   0
 BC_ddepend_move   0
 HEP_ddepend_move   0
 HEC_ddepend_move   0
@@ -3693,7 +3693,6 @@ PHR_ddepend_move   0
 ROR_ddepend_move   0
 TOR_ddepend_move   0
 HUW_ddepend_move   0
-
 
 #   Preferred   location   trend   (whether   to   weight   vertical   distributions   towards   surface   or   bottom   layers   when   in   depths   where   there   were   less   than   complete   set   of   depth   layers)   1   =   on,   0   =   off
 
@@ -14061,7 +14060,6 @@ FFDF_S2 89
 FFDF_S3 89
  
 0 0.06425113 0.14455329 0.02365705 0.01470003 0.00374201 0.00877302 0.00756302 0.05464511 0.07211114 0.00852302 0.00442401 0.01249302 0.01744203 0.00699901 0.000792 0.00297701 0 0.00536001 0.00583101 0.03487207 0.00544201 0.00573001 0.01503803 0.00434801 0.00291001 0.00809602 0.00673401 0.02504605 0.01885004 0.002045 0.002056 0.06068112 0.01569703 0.00611201 0.02508205 0.02172804 0.01034802 0.00833502 0.00385801 0.00625501 0.04651409 0.02279905 0.06561513 0.001575 0.00322301 0.000182 0.00256101 0.00977902 0.000121 0.01843504 0.001728 0.00480801 0.000487 0.00092 0.02181404 0.02131504 0.02023704 0.00429701 0.00548901 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-
 FFDF_S4 89
  
 0 0.06425113 0.14455329 0.02365705 0.01470003 0.00374201 0.00877302 0.00756302 0.05464511 0.07211114 0.00852302 0.00442401 0.01249302 0.01744203 0.00699901 0.000792 0.00297701 0 0.00536001 0.00583101 0.03487207 0.00544201 0.00573001 0.01503803 0.00434801 0.00291001 0.00809602 0.00673401 0.02504605 0.01885004 0.002045 0.002056 0.06068112 0.01569703 0.00611201 0.02508205 0.02172804 0.01034802 0.00833502 0.00385801 0.00625501 0.04651409 0.02279905 0.06561513 0.001575 0.00322301 0.000182 0.00256101 0.00977902 0.000121 0.01843504 0.001728 0.00480801 0.000487 0.00092 0.02181404 0.02131504 0.02023704 0.00429701 0.00548901 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -19216,7 +19214,6 @@ mum_BG_T15   0.00579858121010151
 mum_GEC_T15   0.000639102967786926
 mum_BC_T15   0.0013979843078082
 
-
 #   Vertebrate   growth   rates   for   each   "group,"   per   age   class   mg   N   d-1.   See   flagfishrates   above   to   see   whether   clearance   and   growth   rates   are   chosen   as   absolute   (=0),   or   as   proportion   of   body   mass   (=1)
 
 
@@ -20195,7 +20192,7 @@ li_b_ROR   3
 li_b_TOR   3
 li_b_HUW   3
 
-#   Size   at   maturity.   This   is   an   optional   minimum   length   (where   the   allometric   length/weight   conversion   parameters   li_a_XXX   and   li_b_XXX   are   used   to   get   length)   required   for   sexual   maturation  in cm.   If   this   parameter   is   >   0   then   the   no   maturation   will   occur   in   an   age   class   if   it   is   below   the   maturation   length   even   if   FSPB   parameter   for   that   age   class   is   >   0.
+#   Flag   indicating   which   traits   can   evolve   (or   has   multiple   parameterisations)   size   at   maturity.   Easiest   to   set   to   0.      This   is   an   optional   minimum   length   (where   the   allometric   length/weight   conversion   parameters   li_a_XXX   and   li_b_XXX   are   used   to   get   length)   required   for   sexual   maturation   is   set   in   min_li_mat_XXX.   If   this   parameter   is   >   0   then   the   no   maturation   will   occur   in   an   age   class   if   it   is   below   the   maturation   length   even   if   FSPB   parameter   for   that   age   class   is   >   0.
 
 min_li_mat_HEP   0
 min_li_mat_HEC   0
@@ -24331,7 +24328,6 @@ BHbeta_PHR   99
 BHbeta_ROR   99
 BHbeta_TOR   99
 BHbeta_HUW   99
-
 
 #   Stock   specific   recruitment   scalars   -   to   represent   differential   recruitment   effectiveness   for   different   stocks.   Maybe   contributing   factor   for   regional   differences   in   stock   size,   but   required   in   calibration   occassionally.   If   don't   believe   there   is   stock   specific   differences   set   array   cell   contents   to   1.0
 recSTOCK_HEP      1
