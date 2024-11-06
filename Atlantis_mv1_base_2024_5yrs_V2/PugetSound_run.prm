@@ -57,10 +57,10 @@ debug         5       # 0=debuging off, 1=debug fishing, 2=debug discards, 3=deb
 
 title      Puget Sound Atlantis Model
 dt         	12 hour     # 12 hour time step
-tstop      	30 day    # Stop time after the given period  18255   30yr:  10960   25 yr: 9125   20yr: 7300  15 yr: 5500  10yr:3700  5yr:  1850  3yr: 1100  101yr-- 37000 Test run: 18255
-toutstart  	1 day       # Output start time
-toutinc    	1 day       # Write output with this periodicity
-toutfinc   	1 day     # Write fisheries output with this periodicity
+tstop      	73 day    # Stop time after the given period  18255   30yr:  10960   25 yr: 9125   20yr: 7300  15 yr: 5500  10yr:3700  5yr:  1850  3yr: 1100  101yr-- 37000 Test run: 18255
+toutstart  	73 day       # Output start time
+toutinc    	73 day       # Write output with this periodicity
+toutfinc   	73 day     # Write fisheries output with this periodicity
 tburnday   0 day
 external_box 0
 flagAllowLand 0      # Flag added 05/26/2015 to determine if any boxes are treated as land (1) or not (0)
