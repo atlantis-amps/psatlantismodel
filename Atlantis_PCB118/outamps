@@ -1,0 +1,19 @@
+outputFolder/PugetSound_run.xml:37: parser error : invalid character in attribute value
+ContaminantSettings" AttributeDescription="Contaminant Settings" AttributeType="
+                                                                               ^
+outputFolder/PugetSound_run.xml:37: parser error : attributes construct error
+ContaminantSettings" AttributeDescription="Contaminant Settings" AttributeType="
+                                                                               ^
+outputFolder/PugetSound_run.xml:37: parser error : Couldn't find end of Start Tag AttributeSubGroup line 37
+ContaminantSettings" AttributeDescription="Contaminant Settings" AttributeType="
+                                                                               ^
+outputFolder/PugetSound_run.xml:37: parser error : PCDATA invalid Char value 1
+ContaminantSettings" AttributeDescription="Contaminant Settings" AttributeType="
+                                                                               ^
+outputFolder/PugetSound_run.xml:43: parser error : Opening and ending tag mismatch: AttributeGroup line 0 and AttributeSubGroup
+  </AttributeSubGroup>
+                      ^
+outputFolder/PugetSound_run.xml:44: parser error : Extra content at the end of the document
+  <AttributeSubGroup AttributeGroupName="OutputOptions" AttributeDescription="Mo
+  ^
+Segmentation fault (core dumped)
