@@ -1,0 +1,187 @@
+# PC Version (created by Beth Fulton and Adam Davidson)
+#
+# Alaia Morell August 29 2024 : Hydrodynamic files - SSM-VELMA, year 2011
+# Water quality files - SSM-VELMA, year 2011
+
+nhdfiles 1
+hd0.name /home/atlantis/psatlantismodel/hydrofiles/pugetsound_SSM_Atlantis_uvw_velma_2011.nc
+
+
+# Bottom stress
+# BottomStress inputs/stress/stress.nc
+# BottomStress inputs/stress/nxstress.nc
+
+##########################################
+# Rain and evaporation
+Precipitation times1.6.nc
+Evaporation   84-95.nc
+
+# Solar time series data file
+Solar_radiation solarSeatacAirport.ts
+Solar_radiation_rewind 1
+
+# Temperature time series data file
+use_tempfiles 1
+# The number of temperature input files 
+ntempfiles 1 
+Temperature0.name /home/atlantis/psatlantismodel/hydrofiles/pugetsound_SSM_Atlantis_temperature_velma_2011.nc
+temp_rewind 1
+
+
+# Salinity time series data file
+use_saltfiles 1
+# The number of salinity files 
+nsaltfiles 1
+Salinity0.name /home/atlantis/psatlantismodel/hydrofiles/pugetsound_SSM_Atlantis_salinity_velma_2011.nc
+salt_rewind 1
+
+ts_on_hydro_time 0
+
+# Recruitment_time_series
+Recruitment_time_series HatcheryBASE2011v4.ts
+
+# Recruitment_enviro_forcing
+# This looks like a test from Raphael: Recruitment_enviro_forcing CalCurrent89_chinookrecruit.ts
+#Recruitment_enviro_forcing_rewind 1
+
+# KWSR_forcing
+#  
+# This looks like a test Raphael was doing: KWSR_forcing CalCurrent89_KWSRchinook.ts
+#KWSR_forcing_rewind 1
+
+# pH files
+use_phFiles 0
+npHfiles 0
+#pH0.name ..\force2010sFixBox25\CalCurrent89_phA.nc
+#pH0.name ..\force2013\pH2013\CalCurrent89_pH2013_729steps1.nc
+#pH_rewind 1
+
+#############################################
+# Point source\sink lists
+npointss 0
+
+
+#############################################
+# Historical catch lists - nCatchts is the number of time series to be loaded and
+# typeCatchts is whether or not the data is to be interpolated (0) by the model
+# or just use previous record (1)
+nCatchts 0
+typeCatchts 0
+
+
+#############################################
+# Historical discard lists
+nDiscardts 0
+typeDiscardts 0
+
+#############################################
+# Residual lists - on market fish prices
+nResidualsts 0
+typeResidualsts 0
+
+#############################################
+# Economic statistics - GDP and fuel costs
+nEconts 0
+typeEconts 0
+
+##############################################
+# MPA (spatial management) files for cases where change through time
+# Same format as Catchts above
+nMPAts 0
+typeMPAts 0
+
+# The number of tracers to search for in the files and the names of those tracers. 
+
+
+use_force_tracers 1
+use_weighted_assim 0
+nforceTracers 9
+
+tracerNames 9
+NH3 NO3 Sm_Phyto_N Lrg_Phyto_N Lab_Det_N Ref_Det_N Oxygen DON PCB118
+
+NH3_nFiles 1
+NH3_File0.name /home/atlantis/psatlantismodel/BGC/pugetsound_SSM_Atlantis_NH4_velma_2011.nc
+NH3_rewind 1
+NH3_wgt_coefft 1.0
+NH3_File0.use_resets 1 
+NH3_ResetTol 0
+
+
+NO3_nFiles 1
+NO3_File0.name /home/atlantis/psatlantismodel/BGC/pugetsound_SSM_Atlantis_NO3_velma_2011.nc
+NO3_rewind 1
+NO3_wgt_coefft 1.0
+NO3_File0.use_resets 1
+NO3_ResetTol 0
+
+
+Sm_Phyto_N_nFiles 1
+Sm_Phyto_N_File0.name /home/atlantis/psatlantismodel/BGC/pugetsound_SSM_Atlantis_SP_velma_2011.nc
+Sm_Phyto_N_rewind 1
+Sm_Phyto_N_wgt_coefft 1.0
+Sm_Phyto_N_File0.use_resets 1
+Sm_Phyto_N_ResetTol 0
+
+Lrg_Phyto_N_nFiles 1
+Lrg_Phyto_N_File0.name /home/atlantis/psatlantismodel/BGC/pugetsound_SSM_Atlantis_LP_velma_2011.nc
+Lrg_Phyto_N_rewind 1
+Lrg_Phyto_N_wgt_coefft 1.0
+Lrg_Phyto_N_File0.use_resets 1
+Lrg_Phyto_N_ResetTol 0
+
+Lab_Det_N_nFiles 1
+Lab_Det_N_File0.name /home/atlantis/psatlantismodel/BGC/pugetsound_SSM_Atlantis_LPON_velma_2011.nc
+Lab_Det_N_rewind 1
+Lab_Det_N_wgt_coefft 1.0
+Lab_Det_N_File0.use_resets 1
+Lab_Det_N_ResetTol 0
+
+Ref_Det_N_nFiles 1
+Ref_Det_N_File0.name /home/atlantis/psatlantismodel/BGC/pugetsound_SSM_Atlantis_RPON_velma_2011.nc
+Ref_Det_N_rewind 1
+Ref_Det_N_wgt_coefft 1.0
+Ref_Det_N_File0.use_resets 1
+Ref_Det_N_ResetTol 0
+
+Oxygen_nFiles 1
+Oxygen_File0.name /home/atlantis/psatlantismodel/BGC/pugetsound_SSM_Atlantis_Oxygen_velma_2011.nc
+Oxygen_rewind 1
+Oxygen_wgt_coefft 1.0
+Oxygen_File0.use_resets 1
+Oxygen_ResetTol 0
+
+DON_nFiles 1
+DON_File0.name /home/atlantis/psatlantismodel/BGC/pugetsound_SSM_Atlantis_RDON_velma_2011.nc
+DON_rewind 1
+DON_wgt_coefft 1.0
+DON_File0.use_resets 1
+DON_ResetTol 0
+
+PCB118_nFiles 1
+PCB118_File0.name /home/atlantis/psatlantismodel/PCB/pugetsound_SSM_Atlantis_PCB118_2011.nc
+PCB118_rewind 1
+PCB118_wgt_coefft 1.0
+PCB118_File0.use_resets 1
+PCB118_ResetTol 0
+
+
+
+use_VertMixFiles 0
+
+use_pollutantfiles 0
+
+
+
+# Now the actual files. Can have more than one tracer in a file.
+
+#Arsenic_nFiles 1
+#Arsenic_File0.name inputs/forcisets/SETAS_VMPAArsenic.nc
+#Arsenic_rewind 0
+
+# Frequency of inputs.ts and exports.ts output.
+inputs_tout 1 day
+
+##############################################
+# Movement forcing
+use_move_enties 0
