@@ -28971,6 +28971,7 @@ PCB118_dissolv_coefft 1      # Coefficient indicating degree of dissolubility of
 PCB118_temp_depend 0      # Flag indicating whether the contaminant effect is temperature dependent (1) or not (0)
 PCB118_contam_interaction 0      # Indication of whether the contaminant interacts with other contaminants (1) or not (0)
 PCB118_half_life 5045760000      # Half life in seconds (value random, just to test the script)
+flag_contam_halflife_spbased 0
 
 ## Uptake model - Raisha has 1 for all contaminants
 
