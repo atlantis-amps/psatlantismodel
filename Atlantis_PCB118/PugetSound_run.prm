@@ -5,7 +5,7 @@
 #  Puget Sound , Washington State, USA  run file. 
 #############################################
 # Run parameters
-verbose       18		# Detailed logged output. 18 is everything. 5 is also useful
+verbose       0		# Detailed logged output. 18 is everything. 5 is also useful
 
 flagecon_on        0   # Flag showing whether want economics loaded and submodel run (1) or not (0)
 flag_fisheries_on  0   # Flag showing whether want fisheries loaded and submodel run (1) or not (0)
@@ -27,7 +27,6 @@ flagenviro_warn 0
 K_num_basket 1
 flag_mig_in_bioindx 1
 flag_replicated_old_PPmort 1 
-flag_mig_in_bioindx 0   # Writes total biomass (across every MIGID entry) from migration array into biomindx.txt
 
 debug_it	0
 checkbox      999        # Give detailed logged output for this box
@@ -47,7 +46,7 @@ which_check   80       # ID number of group to track (if don't want to track any
 habitat_check 0
 move_check    90       # ID number of group where tracking movements  (if don't want to track anything set it to 67, for other groups see list below)
 fishmove      1        # Set to 0 to turn vertebrate movement off for debugging purposes
-debug         18       # 0=debuging off, 1=debug fishing, 2=debug discards, 3=debug histfishing,
+debug         5       # 0=debuging off, 1=debug fishing, 2=debug discards, 3=debug histfishing,
                        # 4=debug assessments, 5=debug mpas, 6=debug effort, 7=debug econ effort, 8=debug econ, 9= debug quota, 
                        # 10= aging, 11=debug recruitment, 12= debug_spawning, 13=debug migration, 14=debug movement, 
                        # 15=debug stocks, 16=debug biomass calcs, 17=debug feeding, 18=debug everything, 
@@ -101,14 +100,16 @@ flagIsEstuary     0   # Flag to indicate if the model is estuary. If true a sedi
 
 flagscaleinit     0  # Flag to indicate whether scaling initial vertebrate densities (1=yes, 0=no)
 
+# Multiplicative scalr for vertebrate initial densities (as read-in from cdf file).   48 vertebrates for puget sound. 
+init_scalar       79
+1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0 1.0
 
-
-trackAtomicRatio    0   # Flag indicating whether want to use P and C not just N
-track_rugosity_arag 1   # flag indicating that rugosity and aragonite saturation to be tracked - needed for corals
-track_pH            1   # flag indicating that pH to be tracked
+trackAtomicRatio 0
+track_rugosity_arag 0  # flag indicating that rugosity and aragonite saturation to be tracked - needed for corals
+track_pH           0  # flag indicating that pH to be tracked
 flag_use_deltaH     0   # Flag to use dH for calculation of acidification
 mirror_invalid      0   # Flag indicating whether want the model to estimate source destinations of hydrodynamics if have invalide feed data (1) or not (0)
-track_contaminants  1   # Whether tracking contaminants or not
+track_contaminants  0   # Whether tracking contaminants or not
 flagpassivetracer   0   # Flag indicating whether a passive tracer is needed for tracking tranpsorts or not (1 = yes, 0 = no)
 flag_sanity_check   1   # flag to check for the large vertebrate reproduction bug
 flag_contam_sanity_check 0   # flag to turn on checking of contaminant fluxes
@@ -117,7 +118,7 @@ flag_contam_sanity_check 0   # flag to turn on checking of contaminant fluxes
 num_contaminants  1
 
 contaminant_names 1
-PCB118 
+PCB118
 
 contaminant_units 1
 mgPCB118/m^3 
@@ -128,10 +129,6 @@ mgPCB118/m^3
 flag_replicated_old 0
 
 flag_pollutant_impacts 0
-
-# Multiplicative scalr for vertebrate initial densities (as read-in from cdf file).   48 vertebrates for puget sound. 
-init_scalar       79
-1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0 1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0 1.0
 
 ################################################
 # List of group numbers for use with which_check
