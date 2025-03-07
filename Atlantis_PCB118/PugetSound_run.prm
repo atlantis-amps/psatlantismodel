@@ -109,7 +109,7 @@ track_rugosity_arag 0  # flag indicating that rugosity and aragonite saturation 
 track_pH           0  # flag indicating that pH to be tracked
 flag_use_deltaH     0   # Flag to use dH for calculation of acidification
 mirror_invalid      0   # Flag indicating whether want the model to estimate source destinations of hydrodynamics if have invalide feed data (1) or not (0)
-track_contaminants  0   # Whether tracking contaminants or not
+track_contaminants  1   # Whether tracking contaminants or not
 flagpassivetracer   0   # Flag indicating whether a passive tracer is needed for tracking tranpsorts or not (1 = yes, 0 = no)
 flag_sanity_check   1   # flag to check for the large vertebrate reproduction bug
 flag_contam_sanity_check 0   # flag to turn on checking of contaminant fluxes
