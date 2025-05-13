@@ -160,7 +160,7 @@ DON_ResetTol 0
 
 PCB118_nFiles 1
 PCB118_File0.name /home/atlantis/psatlantismodel/PCB/pugetsound_SSM_Atlantis_PCB118_2011.nc
-PCB118_rewind 1
+PCB118_rewind 0
 PCB118_wgt_coefft 1.0
 PCB118_File0.use_resets 1
 PCB118_ResetTol 0
