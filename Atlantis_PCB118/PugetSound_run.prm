@@ -121,7 +121,7 @@ contaminant_names 1
 PCB118
 
 contaminant_units 1
-mgPCB118/m^3 
+PCB/m^3
 
 #flagPHmortcase 2   # 0 is no mortality due to pH, 1 is sigmoidal, 2 is hockeystick McElhany Busch method.
 
