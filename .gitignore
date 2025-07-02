@@ -3,11 +3,6 @@
 .RData
 .Ruserdata
 .Renviron
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-.Renviron
 .secrets
 RUN
 Atlantis_Calibration/
