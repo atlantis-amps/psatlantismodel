@@ -28964,7 +28964,7 @@ flag_dissolved_pollutants 1      # Flag indicating whether the contaminants are 
 flag_contamMortModel 1      # Flag indicating whether top use the simple mortality model from Laender et al 2008 (1) or compound model from InVitro (0)
 flag_contamInteractModel 0      # Flag indicating - No contaminant interactions (0), Additive interactions (1), Multiplicative interactions (2), Most limiting contaminant dominates (3)
 flag_contamGrowthModel 0      # Flag indicating - No growth effects of contaminants (0), InVitro representation (1), logistic model (2)
-flag_contamReprodModel 1      # Flag indicating - No Reprod effects of contaminants (0), Raisha equation (1) InVitro representation (2), logistic model (3)
+flag_contamReprodModel 2      # Flag indicating - No Reprod effects of contaminants (0), Raisha equation (1) InVitro representation (2), logistic model (3)
 flag_contamMaternalTransfer 0 # Flag indicating - No maternal transfer (0) maternal transfer (1)
 flag_contamMove 0      # Flag indicating the avoidance scalar used - 0 = none, 1 = knife-edge, 2 = sigmoidal, 3 = left shoulder flat top
 flag_contamOnlyAmplify 0      # Flag indicating whether the interacting contaminants can only amplify (1) or can buffer/negate each other too (0)
@@ -30131,7 +30131,7 @@ PL_PCB118_ECslope 0.2
 PS_PCB118_ECslope 0.2
 MA_PCB118_ECslope 0.2
 SG_PCB118_ECslope 0.2
-ZS_PCB118_ECslope 250
+ZS_PCB118_ECslope 0.2
 ZM_PCB118_ECslope 0.2
 ZL_PCB118_ECslope 0.2
 ZG_PCB118_ECslope 0.2
@@ -30282,7 +30282,7 @@ PIN_PCB118_ECslope_r 0.15
 PHR_PCB118_ECslope_r 0.15
 ROR_PCB118_ECslope_r 0.15
 TOR_PCB118_ECslope_r 0.15
-HUW_PCB118_ECslope_r 100
+HUW_PCB118_ECslope_r 0.15
 DL_PCB118_ECslope_r 0.15
 DR_PCB118_ECslope_r 0.15
 DC_PCB118_ECslope_r 0.15

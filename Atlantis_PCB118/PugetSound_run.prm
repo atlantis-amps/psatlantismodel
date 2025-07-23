@@ -57,7 +57,7 @@ debug         18       # 0=debuging off, 1=debug fishing, 2=debug discards, 3=de
 
 title      Puget Sound Atlantis Model
 dt         	12 hour     # 12 hour time step
-tstop      	10 day    # Stop time after the given period  18255   30yr:  10960   25 yr: 9125   20yr: 7300  15 yr: 5500  10yr:3700  5yr:  1850  3yr: 1100  101yr-- 37000 Test run: 18255
+tstop      	5 day    # Stop time after the given period  18255   30yr:  10960   25 yr: 9125   20yr: 7300  15 yr: 5500  10yr:3700  5yr:  1850  3yr: 1100  101yr-- 37000 Test run: 18255
 toutstart  	0 day       # Output start time
 toutinc    	10 day       # Write output with this periodicity
 toutfinc   	10 day     # Write fisheries output with this periodicity
@@ -107,6 +107,7 @@ init_scalar       79
 trackAtomicRatio 0
 track_rugosity_arag 0  # flag indicating that rugosity and aragonite saturation to be tracked - needed for corals
 track_pH           0  # flag indicating that pH to be tracked
+trackWind          0  # flag indicating that wind to be tracked
 flag_use_deltaH     0   # Flag to use dH for calculation of acidification
 mirror_invalid      0   # Flag indicating whether want the model to estimate source destinations of hydrodynamics if have invalide feed data (1) or not (0)
 track_contaminants  1   # Whether tracking contaminants or not
