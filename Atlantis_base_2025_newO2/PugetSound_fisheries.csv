@@ -1,0 +1,60 @@
+Code,Index,Name,IsRec,NumSubFleets
+cancom,1,can_commercial,0,0
+cancomsal,2,can_commercial_salmon,0,0
+cansaltrib,3,can_salmon_native,0,0
+cansalrec,4,can_salmon_recreational,1,0
+canrec,5,can_recreational,1,0
+cantrib,6,can_native,0,0
+BIVrec,7,clams (bivalves) recreational,1,0
+diving,8,diving,0,0
+divingtrib,9,diving_tribal,0,0
+DUNrec,10,dungeness crab recreational,1,0
+fishpot,11,fish pot and trap,0,0
+fishpottrib,12,fish pot and trap_tribal,0,0
+GECrec,13,geoduck recreational,1,0
+handline,14,handline,0,0
+handlinetrib,15,handline_tribal,0,0
+HEpseine,16,herring purse seine,0,0
+HEpseinetrib,17,herring purse seine_tribal,0,0
+hookline,18,hook and line,0,0
+hooklinetrib,19,hook and line_tribal,0,0
+jig,20,jig,0,0
+jigtribal,21,jig_tribal,0,0
+net,22,net,0,0
+nettribal,23,net_tribal,0,0
+BMSpot,24,octopus pot and trap,0,0
+BMSpottrib,25,octopus pot and trap_tribal,0,0
+other,26,other gear,0,0
+othertrib,27,other gear_tribal,0,0
+otherrec,28,other recreational,1,0
+otherrectrib,29,other recreational_tribal,1,0
+salothernet,30,salmon other net,0,0
+salothernettrib,31,salmon other net_tribal,0,0
+salbseine,32,salmon beach seine,0,0
+salbseinetrib,33,salmon beach seine_tribal,0,0
+saldipnet,34,salmon dipnet,0,0
+saldipnettrib,35,salmon dipnet_tribal,0,0
+saldriftnet,36,salmon driftnet,0,0
+saldriftnettrib,37,salmon driftnet_tribal,0,0
+salgillnet,38,salmon gillnet,0,0
+salgillnettrib,39,salmon gillnet_tribal,0,0
+salhand,40,salmon handline,0,0
+salhandtrib,41,salmon handline_tribal,0,0
+salotherg,42,salmon other gear,0,0
+salothergtrib,43,salmon other gear_tribal,0,0
+salpseine,44,salmon purse seine,0,0
+salpseinetrib,45,salmon purse seine_tribal,0,0
+salrec,46,salmon recreational,1,0
+salreefnet,47,salmon reef net,0,0
+salreefnettrib,48,salmon reef net_tribal,0,0
+saltrawl,49,salmon trawl,0,0
+saltroll,50,salmon troll,0,0
+saltrolltrib,51,salmon troll_tribal,0,0
+seine,52,seine,0,0
+seinetrib,53,seine_tribal,0,0
+shellfishpot,54,shellfish pot and trap,0,0
+shellfishpottrib,55,shellfish pot and trap_tribal,0,0
+sportfishing,56,sport fishing,1,0
+PWNrec,57,spot shrimp recreational,1,0
+trawl,58,trawl,0,0
+trawltrib,59,trawl_tribal,0,0
