@@ -95,10 +95,10 @@ typeMPAts 0
 
 use_force_tracers 1
 use_weighted_assim 0
-nforceTracers 9
+nforceTracers 16
 
-tracerNames 9
-NH3 NO3 Sm_Phyto_N Lrg_Phyto_N Lab_Det_N Ref_Det_N Oxygen DON PCB118
+tracerNames 16
+NH3 NO3 Sm_Phyto_N Lrg_Phyto_N Lab_Det_N Ref_Det_N Oxygen DON PCB118 Sm_Phyto_PCB118 Lrg_Phyto_PCB118 Lab_Det_PCB118 Ref_Det_PCB118 Micro_Zoo_PCB118 Meso_Zoo_PCB118 Lrg_Zoo_PCB118
 
 NH3_nFiles 1
 NH3_File0.name /home/atlantis/psatlantismodel/BGC/pugetsound_SSM_Atlantis_NH4_velma_2011.nc
@@ -160,11 +160,59 @@ DON_ResetTol 0
 
 PCB118_nFiles 1
 PCB118_File0.name /home/atlantis/psatlantismodel/PCB/pugetsound_SSM_Atlantis_PCB118_2011.nc
-PCB118_rewind 0
+PCB118_rewind 1
 PCB118_wgt_coefft 1.0
 PCB118_File0.use_resets 1
 PCB118_ResetTol 0
 
+Sm_Phyto_PCB118_nFiles 1
+Sm_Phyto_PCB118_File0.name /home/atlantis/psatlantismodel/PCB/pugetsound_SSM_Atlantis_PCB118_SP_2011.nc
+Sm_Phyto_PCB118_rewind 1
+Sm_Phyto_PCB118_wgt_coefft 1.0
+Sm_Phyto_PCB118_File0.use_resets 1
+Sm_Phyto_PCB118_ResetTol 0
+
+Lrg_Phyto_PCB118_nFiles 1
+Lrg_Phyto_PCB118_File0.name /home/atlantis/psatlantismodel/PCB/pugetsound_SSM_Atlantis_PCB118_LP_2011.nc
+Lrg_Phyto_PCB118_rewind 1
+Lrg_Phyto_PCB118_wgt_coefft 1.0
+Lrg_Phyto_PCB118_File0.use_resets 1
+Lrg_Phyto_PCB118_ResetTol 0
+
+Lab_Det_PCB118_nFiles 1
+Lab_Det_PCB118_File0.name /home/atlantis/psatlantismodel/PCB/pugetsound_SSM_Atlantis_PCB118_LPON_2011.nc
+Lab_Det_PCB118_rewind 1
+Lab_Det_PCB118_wgt_coefft 1.0
+Lab_Det_PCB118_File0.use_resets 1
+Lab_Det_PCB118_ResetTol 0
+  
+Ref_Det_PCB118_nFiles 1
+Ref_Det_PCB118_File0.name /home/atlantis/psatlantismodel/PCB/pugetsound_SSM_Atlantis_PCB118_RPON_2011.nc
+Ref_Det_PCB118_rewind 1
+Ref_Det_PCB118_wgt_coefft 1.0
+Ref_Det_PCB118_File0.use_resets 1
+Ref_Det_PCB118_ResetTol 0
+  
+Micro_Zoo_PCB118_nFiles 1
+Micro_Zoo_PCB118_File0.name /home/atlantis/psatlantismodel/PCB/pugetsound_SSM_Atlantis_PCB118_SZ_2011.nc
+Micro_Zoo_PCB118_rewind 1
+Micro_Zoo_PCB118_wgt_coefft 1.0
+Micro_Zoo_PCB118_File0.use_resets 1
+Micro_Zoo_PCB118_ResetTol 0
+
+Meso_Zoo_PCB118_nFiles 1
+Meso_Zoo_PCB118_File0.name /home/atlantis/psatlantismodel/PCB/pugetsound_SSM_Atlantis_PCB118_MZ_2011.nc
+Meso_Zoo_PCB118_rewind 1
+Meso_Zoo_PCB118_wgt_coefft 1.0
+Meso_Zoo_PCB118_File0.use_resets 1
+Meso_Zoo_PCB118_ResetTol 0
+
+Lrg_Zoo_PCB118_nFiles 1
+Lrg_Zoo_PCB118_File0.name /home/atlantis/psatlantismodel/PCB/pugetsound_SSM_Atlantis_PCB118_LZ_2011.nc
+Lrg_Zoo_PCB118_rewind 1
+Lrg_Zoo_PCB118_wgt_coefft 1.0
+Lrg_Zoo_PCB118_File0.use_resets 1
+Lrg_Zoo_PCB118_ResetTol 0
 
 
 use_VertMixFiles 0
