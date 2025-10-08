@@ -4,7 +4,7 @@ PB,1,1,Pelag_Bact,Pelagic bacteria,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,PL_BACT,0,0,0,0
 PL,2,1,Lrg_Phyto,Large phytoplankton,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,LG_PHY,0,0,1,0,0,0,0,0,4,0,0,0
 PS,3,1,Sm_Phyto,Small phytoplankton,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,SM_PHY,0,0,0,0,0,0,0,0,4,0,0,0
 MA,4,1,Macroalgae,Macroalgae,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,PHYTOBEN,0,1,0,0,0,0,0,0,1,0,0,0
-SG,5,0,Seagrass,Seagrass,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,SEAGRASS,0,1,0,0,0,0,0,0,1,0,0,0
+SG,5,1,Seagrass,Seagrass,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,SEAGRASS,0,1,0,0,0,0,0,0,1,0,0,0
 ZS,6,1,Micro_Zoo,Microzooplankton,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,SM_ZOO,1,0,0,0,0,0,0,0,4,0,0,0
 ZM,7,1,Meso_Zoo,Mesozooplankton,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,SM_ZOO,1,0,0,0,0,0,0,0,4,0,0,0
 ZL,8,1,Lrg_Zoo,Large zooplankton,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,LG_ZOO,1,0,0,0,0,0,0,0,4,0,0,0
@@ -18,12 +18,12 @@ BMS,15,1,Octopi,Octopi,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,MOB_EP_OTHER,1,0,0,0,0,0,0,
 DUN,16,1,Dungeness,Dungeness crab,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,MOB_EP_OTHER,1,0,0,0,0,0,0,0,4,0,0,0
 BML,17,1,Crab,Crabs,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,MOB_EP_OTHER,1,0,0,0,0,0,0,0,4,0,0,0
 PWN,18,1,Shrimp,Shrimp,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,PWN,1,0,0,0,0,0,0,0,4,0,0,0
-BFF,19,0,Filter_Other,Benthic filter feeder,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,SED_EP_FF,1,1,0,0,0,0,0,0,4,0,0,0
+BFF,19,1,Filter_Other,Benthic filter feeder,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,SED_EP_FF,1,1,0,0,0,0,0,0,4,0,0,0
 BIV,20,1,Bivalve,Bivalves,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,SED_EP_FF,1,0,0,0,0,0,0,0,4,0,0,0
 GEC,21,1,Geoduck,Geoducks,1,1,1,1,1,1,0,0,0,0,0,0,1,1,0,SED_EP_FF,1,0,0,0,0,0,0,0,1,0,0,0
 BC,22,1,Carn_Infauna,Carnivorous infauna,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,MOB_EP_OTHER,1,0,0,0,0,0,0,0,4,0,0,0
-HEP,23,0,Herring_PS,Pacific Herring Puget Sound,7,1,2,1,1,1,1,1,0,0,0,0,1,1,0,FISH,1,0,0,0,0,0,0,0,3,0,0,0
-HEC,24,0,Herring_Cherry,Pacific Herring Cherry Point,6,1,2,1,1,1,1,1,0,0,0,0,1,1,0,FISH,1,0,0,0,0,0,0,0,3,0,0,0
+HEP,23,1,Herring_PS,Pacific Herring Puget Sound,7,1,2,1,1,1,1,1,0,0,0,0,1,1,0,FISH,1,0,0,0,0,0,0,0,3,0,0,0
+HEC,24,1,Herring_Cherry,Pacific Herring Cherry Point,6,1,2,1,1,1,1,1,0,0,0,0,1,1,0,FISH,1,0,0,0,0,0,0,0,3,0,0,0
 FPS,25,0,Sm_Plank_Fish,Small Planktivorous Fish,8,1,2,1,1,1,1,1,0,0,0,0,1,1,0,FISH,1,0,0,0,0,0,0,0,12,0,0,0
 POP,26,0,Perch_Fish,Perch,8,1,2,1,1,1,1,1,0,0,0,0,1,1,0,FISH,1,0,0,0,0,0,0,0,12,0,0,0
 CHY,27,0,ChinookY_Fish,Chinook Hatch Yearling,5,1,2,1,1,1,1,1,0,1,1,4,1,1,0,FISH,1,0,0,0,0,0,0,0,12,0,2,1
