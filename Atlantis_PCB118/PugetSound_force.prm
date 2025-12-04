@@ -95,10 +95,10 @@ typeMPAts 0
 
 use_force_tracers 1
 use_weighted_assim 0
-nforceTracers 9
+nforceTracers 13
 
-tracerNames 9
-NH3 NO3 Sm_Phyto_N Lrg_Phyto_N Lab_Det_N Ref_Det_N Oxygen DON PCB118 #Sm_Phyto_PCB118 Lrg_Phyto_PCB118 Lab_Det_PCB118 Ref_Det_PCB118 #Micro_Zoo_PCB118 Meso_Zoo_PCB118 #Lrg_Zoo_PCB118
+tracerNames 13
+NH3 NO3 Sm_Phyto_N Lrg_Phyto_N Lab_Det_N Ref_Det_N Oxygen DON PCB118 Sm_Phyto_PCB118 Lrg_Phyto_PCB118 Lab_Det_PCB118 Ref_Det_PCB118 Micro_Zoo_PCB118 Meso_Zoo_PCB118 Lrg_Zoo_PCB118
 
 NH3_nFiles 1
 NH3_File0.name /home/atlantis/psatlantismodel/BGC/pugetsound_SSM_Atlantis_NH4_velma_2011.nc
