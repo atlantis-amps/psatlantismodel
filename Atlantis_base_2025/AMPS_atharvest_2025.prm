@@ -1494,7 +1494,7 @@ flagmarketdiscard	0	 ## Market-based discarding [1] Yes or [0] No
 flagendangered	0	 ## Endangered group status effect effort allocation [1] Yes or [0] No 
 flagmpa	1	 ## MPA for any group[1] Yes or [0] No 
 flaginfringe	0	 ## Infringement of mpas [1] Yes or [0] No 
-flagdisplace	1	 ## Effort displacement due to low CPUE or MPA present [1] Yes or [0] No 
+flagdisplace	0  ## Effort displacement due to low CPUE or MPA present [1] Yes or [0] No 
 flagbuffereffort	0	 ## Effort buffering on for dynamic fleet model [1] Yes or [0] No 
 flagchangeeffort	1	 ## Fishing pressure changes with time [1] Yes or [0] No 
 flagchangediscrd	0	 ## Discarding practices change with time [1] Yes or [0] No 
@@ -3972,7 +3972,7 @@ mFC_BG 59
 mFC_BMS 59 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.5492218335396e-07 0 6.0456395135824e-08 0 0 2.32764440652847e-07 1.60592299721923e-07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4.12830370193229e-07 9.48563424216826e-07 7.07843586348932e-06 0 7.55558292783896e-08 5.63512324051407e-06 
 mFC_DUN 59 
-0 0 0 0 0 0 0 0 0 0.000113776516176928 0 0 0 0 0 0 0 0 0 0 0 3.23790438207783e-08 6.5211426754187e-09 0 0 0 1.03517884213251e-07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00019313129227815 0.000323323681742848 0 0 1.32317442922057e-09 7.16382066871946e-09 
+0	0	0	0	0	0	0	0	0	3.79255E-05	0	0	0	0	0	0	0	0	0	0	0	1.0793E-08	2.17371E-09	0	0	0	3.4506E-08	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6.43771E-05	0.000107775	0	0	4.41058E-10	2.38794E-09
 mFC_BML 59 
 3.22899051350183e-10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.21373137720239e-06 1.49966076488094e-07 0 0 0 0 
 mFC_PWN 59 
