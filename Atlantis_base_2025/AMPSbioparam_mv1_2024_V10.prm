@@ -19987,7 +19987,7 @@ KA_CMF   0.002273241632
 KA_CMH   0.002273241632
 KA_PIS   0.002273241632
 KA_SAL   0.0008126838836
-KA_SAF   0.0008126838836
+KA_SAF   0.001500339477
 KA_FMM   0.00334
 KA_FVS   0.001534438102
 KA_ROC   0.008126838836
@@ -20043,7 +20043,7 @@ KB_CMF   0.78
 KB_CMH   0.78
 KB_PIS   0.78
 KB_SAL   0.791
-KB_SAF   0.791
+KB_SAF   0.783
 KB_FMM   0.7935
 KB_FVS   0.7747
 KB_ROC   0.7515
@@ -27976,7 +27976,7 @@ q10_optimal_temp_CMF   15.8
 q10_optimal_temp_CMH   15.8
 q10_optimal_temp_PIS   15
 q10_optimal_temp_SAL   17.3975
-q10_optimal_temp_SAF   17.3975
+q10_optimal_temp_SAF   15
 q10_optimal_temp_FMM   10.5667
 q10_optimal_temp_FVS   15
 q10_optimal_temp_ROC   15
@@ -28059,7 +28059,7 @@ q10_correction_CMF   21.06667
 q10_correction_CMH   21.06667
 q10_correction_PIS   20
 q10_correction_SAL   25.14444444
-q10_correction_SAF   25.14444444
+q10_correction_SAF   22.4
 q10_correction_FMM   15.5
 q10_correction_FVS   20
 q10_correction_ROC   20
